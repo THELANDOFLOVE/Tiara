@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--基础文明-->
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_FAIRY_FENCER</Type>
+			<Description>TXT_KEY_CIV_FAIRY_FENCER_DESC</Description>
+			<CivilopediaTag>TXT_KEY_CIV5_FAIRY_FENCER</CivilopediaTag>
+			<Playable>1</Playable>
+			<AIPlayable>0</AIPlayable>
+			<ShortDescription>TXT_KEY_CIV_FAIRY_FENCER_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_FAIRY_FENCER_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_FAIRY_FENCER</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_FAIRY_FENCER</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
+			<AlphaIconAtlas>TAlpha</AlphaIconAtlas>
+			<MapImage>Tiara Map image.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_FAIRY_FENCER_TEXT</DawnOfManQuote>
+			<DawnOfManImage>Tiara DOM image.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_FAIRY_FENCER</DawnOfManAudio>
+			<SoundtrackTag>FRANCE</SoundtrackTag>
+		</Row>
+	</Civilizations>
+
+	<!--城市名-->
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_16</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_17</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_18</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_19</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_20</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_21</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_22</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_23</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_24</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_25</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_26</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FAIRY_FENCER_27</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<!--无偿建筑-->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<!--无偿科技-->
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<TechType>TECH_FISHERY</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+	<!--无偿单位-->
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<UnitClassType>UNITCLASS_WORKER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<!--对应领袖-->
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<LeaderheadType>LEADER_TIARA</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<!--对应宗教-->
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<ReligionType>RELIGION_GODDESS</ReligionType>
+		</Row>
+	</Civilization_Religions>
+
+	<!--间谍名-->
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_9</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_10</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_11</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_12</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FAIRY_FENCER_13</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	
+	<!--UB定义-->
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<BuildingType>BUILDING_SUNFLOWER</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>
+			<BuildingType>BUILDING_DORFA_E</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<!--UU定义-->
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<UnitClassType>UNITCLASS_HELICOPTER_GUNSHIP</UnitClassType>
+			<UnitType>UNIT_MAGIC_AIRBOAT</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<!--沿河关联-->
+	<Civilization_Start_Along_River>
+		<Row>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<StartAlongRiver>true</StartAlongRiver>
+		</Row>
+	</Civilization_Start_Along_River>
+
+	<!--文明颜色-->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_FAIRY_FENCER_BACKGROUND</Type>
+			<Red>0.000</Red>
+			<Green>0.000</Green>
+			<Blue>0.000</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_FAIRY_FENCER_ICON</Type>
+			<Red>0.900</Red>
+			<Green>0.900</Green>
+			<Blue>1.000</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+
+	<!--玩家颜色-->
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_FAIRY_FENCER</Type>
+			<PrimaryColor>COLOR_PLAYER_FAIRY_FENCER_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_FAIRY_FENCER_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_FAIRY_FENCER_DESC">
+			<Text>Fairy Fencer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_1">
+			<Text>About Fairy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_1">
+			<Text>The fantastic creature that can't be explain with science and they usually exists in their own furies. Fairies have no standard form. Some of they looks like a small animal and some of they get a human form or a dragon form. Fairies can live forever but once they contract with human and they share their life. Once the fencer is dead, his fairy pass as well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_2">
+			<Text>About Fencer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_2">
+			<Text>The special people who can use the power of the fury. Obviously fencers have a great power, they are the chosen one with their fury like the fairy tale. But it dosen't mean that all fencers are good guy, some of they may be the madman that kill everyone with no mercy. Fencers are desired to collect the fruies and wake the ancient god. And Dorfa, the most powerful corporation in the world, recruit fencers to achieve their evil wish.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_3">
+			<Text>About Goddess and Vile God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_3">
+			<Text>Goddess, one of the ancient god, which brings hope and peace to the world. Goddess and Vile God fought each other, but both of them were sealed by countless Furies and lost their own power. To wake the Goddess or the Vile God up, fencer needs to collect Furies and Faith Drop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_4">
+			<Text>About Evil God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_4">
+			<Text>Only a few people know about the Evil God. As the 3th God, it's more powerfun than both Goddess and Vile God but been sealed. Once Goddess or Vile God pass, the Evil God will wake. It's blood may brings power to the people who drink it but this will also harms their mind. A little blood strengthens human's tension and it's very dangerous because it gets addiction. Adopting a lot of this blood will totally destroy a human in a short time. The most horrific is that, drinking this blood also means that man sends his soul to the Evil God. The more soul that the Evil God takes away, the more powerful it will be.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_5">
+			<Text>About Drofa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_5">
+			<Text>The most powerful corporation in the world, it takes control in both house property, furniture and so on. Drofa completely holds the market and their leader send a lot in charity to build their public image. Everyone hopes to work for them as their wish. But Drofa also hire the powerful fencers to collect fruies in secret, they want to wake the Vile God and rule this world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_6">
+			<Text>About Septerion Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_6">
+			<Text>Septerion Club runs in the dark. The club is a organization that hopes to wake the powerful god except Goddess and Vile God. For now they set a goal to wake the Evil God. But even both of Goddess and Vile God fell in sleep, the club still can not wake the Evil God. Once Goddess or Vile God been destroied, this crazy organization will start their plan in a minute.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TITLE">
+			<Text>Fairy Fencer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_FAIRY_FENCER_SHORT_DESC">
+			<Text>Fairy Fencer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_FAIRY_FENCER_ADJECTIVE">
+			<Text>Fairy Fencer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_FAIRY_FENCER_TEXT">
+			<Text>Long aog, when light and darkness still bore life[NEWLINE]The Goddess emerged from the light, and an entity known as the Vile God burst forth from the darkness[NEWLINE]The Vile God, drawing strength from human sorrow and suffering[NEWLINE]The Goddess, drawing strength from human hopes and dreams[NEWLINE]In a desperate stryggle for survival on both sides[NEWLINE]For unending days and years, they fought[NEWLINE]A fierce battle ensued between the deities[NEWLINE]The light tore the darkness to shreds, the darkness corroded the light[NEWLINE]And eventually both sides lost their spark of life[NEWLINE]And so, the Goddess and the Vile God fell into a deep, eternal slumber[NEWLINE]Like a dying star emitting a fanal burst of light before imploding into darkness...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_0">
+			<Text>Godly Revival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_1">
+			<Text>Zelwinds City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_2">
+			<Text>Sol Plains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_3">
+			<Text>Kravisse Cave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_4">
+			<Text>Yatagan Lava Flows</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_5">
+			<Text>Katticus Ice Cave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_6">
+			<Text>Kidanar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_7">
+			<Text>Shukesoo's Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_8">
+			<Text>Solaru Village</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_9">
+			<Text>Bui Valley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_10">
+			<Text>Zawaza Plains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_11">
+			<Text>Subterranean Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_12">
+			<Text>Cavare Desert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_13">
+			<Text>Cavare Desert - Sanctuary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_14">
+			<Text>Rudohke Blast Furnace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_15">
+			<Text>Lusamundo Ice Cave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_16">
+			<Text>Inverted Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_17">
+			<Text>Zeppelia Valley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_18">
+			<Text>Stairway to Heaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_19">
+			<Text>Dorfa Human Ranch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_20">
+			<Text>Dasuhiro Plains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_21">
+			<Text>Vile God's Innards</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_22">
+			<Text>Dansklight Ruins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_23">
+			<Text>Justice Society Camp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_24">
+			<Text>Dorall Wine Factory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_25">
+			<Text>Sedipua Den</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_26">
+			<Text>Dorall Central Factory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_27">
+			<Text>Rey=A=Rimus Ruins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_0">
+			<Text>Medis</Text>
+		<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_1">
+			<Text>Kyoko</Text>
+		<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_2">
+			<Text>Sylph</Text>
+		<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_3">
+			<Text>Harpy</Text>
+		<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_4">
+			<Text>Lif</Text>
+		<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_5">
+			<Text>Minari</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_6">
+			<Text>Snow</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_7">
+			<Text>Kuko</Text>
+		<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_8">
+			<Text>Light</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_9">
+			<Text>Rita</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_10">
+			<Text>Gunlight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_11">
+			<Text>Gozer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_12">
+			<Text>Kunes</Text>
+		<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_13">
+			<Text>Gisele</Text>
+		<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>

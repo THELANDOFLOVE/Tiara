@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/17/2014 10:02:36 PM -->
+<GameData>
+	<!--基础政策-->
+	<Policies>
+		<Row>
+			<Type>POLICY_NOBILIARY_MANNER</Type>
+			<Description>TXT_KEY_POLICY_NOBILIARY_MANNER</Description>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<BarbarianCombatBonus>50</BarbarianCombatBonus>
+			<GreatArtistRateModifier>33</GreatArtistRateModifier>
+			<GreatMusicianRateModifier>33</GreatMusicianRateModifier>
+			<GreatWriterRateModifier>33</GreatWriterRateModifier>
+		</Row>
+	</Policies>
+
+	<!--巨作文化修正-->
+	<Policy_GreatWorkYieldChanges>
+		<Row>
+			<PolicyType>POLICY_NOBILIARY_MANNER</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Policy_GreatWorkYieldChanges>
+
+	<!--建筑物产能修正-->
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_NOBILIARY_MANNER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NOBILIARY_MANNER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NOBILIARY_MANNER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NOBILIARY_MANNER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NOBILIARY_MANNER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+
+		<!--For the mxxher fxxker Super Power-->
+		<Row>
+			<PolicyType>POLICY_NOBILIARY_MANNER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ART_GALLERY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+
+	<!--首都每个人口修正-->
+	<Policy_CapitalYieldPerPopChanges>
+	</Policy_CapitalYieldPerPopChanges>
+
+	<!--城市修正-->
+	<Policy_CityYieldChanges>
+	</Policy_CityYieldChanges>
+
+	<!--设施修正-->
+	<Policy_ImprovementYieldChanges>
+	</Policy_ImprovementYieldChanges>
+
+	<!--无偿晋升-->
+	<Policy_FreePromotions>
+	</Policy_FreePromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_NOBILIARY_MANNER">
+			<Text>[COLOR_CYAN]Nobiliary Manner[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

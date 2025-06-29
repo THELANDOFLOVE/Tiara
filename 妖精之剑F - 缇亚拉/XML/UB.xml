@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/13/2015 12:44:00 PM -->
+<GameData>
+	<BuildingClasses>
+	<!--新建筑等级-->
+		<Row>
+			<Type>BUILDINGCLASS_SUNFLOWER_BOUNS</Type>
+			<DefaultBuilding>BUILDING_SUNFLOWER_BOUNS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SUNFLOWER_BOUNS</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_DORFA_T</Type>
+			<DefaultBuilding>BUILDING_DORFA_T</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_DORFA_T</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_FAIRY_SANCTUARY</Type>
+			<DefaultBuilding>BUILDING_FAIRY_SANCTUARY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_FAIRY_SANCTUARY</Description>
+		</Row>
+	</BuildingClasses>
+	<!--建筑-->
+	<Buildings>
+		<!--向日葵庄/客栈-->
+		<Row>
+			<Type>BUILDING_SUNFLOWER</Type>
+			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
+			<Cost>150</Cost>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<!--所需科技数学-->
+			<EnhancedYieldTech>TECH_ECONOMICS</EnhancedYieldTech>
+			<!--加成所需科技经济学-->
+			<Help>TXT_KEY_BUILDING_SUNFLOWER_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SUNFLOWER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SUNFLOWER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SP_CITY_BASIC_BUILDINGS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_CARAVANSARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<FreeBuildingThisCity>BUILDINGCLASS_SUNFLOWER_BOUNS</FreeBuildingThisCity>
+			<!--无偿建筑向日葵庄商业加成-->
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>3</SpecialistCount>
+			<ArtInfoEraVariation>true</ArtInfoEraVariation>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<TradeRouteLandGoldBonus>600</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>6</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>6</TradeRouteTargetBonus>
+			<HurryCostModifier>10</HurryCostModifier>
+			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SUNFLOWER_BOUNS</Type>
+			<!--向日葵庄商业加成-->
+			<BuildingClass>BUILDINGCLASS_SUNFLOWER_BOUNS</BuildingClass>
+			<!--建筑类型-->
+			<Cost>-1</Cost>
+			<!--无法建造-->
+			<Help>TXT_KEY_BUILDING_SUNFLOWER_BOUNS_HELP</Help>
+			<!--文本词条-->
+			<Description>TXT_KEY_BUILDING_SUNFLOWER_BOUNS</Description>
+			<!--文本词条-->
+			<GreatWorkCount>-1</GreatWorkCount>
+			<!--隐藏建筑-->
+			<MinAreaSize>-1</MinAreaSize>
+			<!--无需邻湖邻海-->
+			<HurryCostModifier>-1</HurryCostModifier>
+			<!--购买参数，-1为不可购买-->
+			<NeverCapture>true</NeverCapture>
+			<!--无法占领-->
+			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
+			<!--图标取材-->
+			<PortraitIndex>3</PortraitIndex>
+			<!--图标取材顺序-->
+		</Row>
+		
+		<!--多尔法大厦/风车-->
+		<Row>
+			<Type>BUILDING_DORFA_E</Type>
+			<BuildingClass>BUILDINGCLASS_WINDMILL</BuildingClass>
+			<Cost>225</Cost>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<!--所需科技行会-->
+			<EnhancedYieldTech>TECH_ARCHITECTURE</EnhancedYieldTech>
+			<!--加成所需科技建筑设计学-->
+			<Help>TXT_KEY_BUILDING_DORFA_E_HELP</Help>
+			<Description>TXT_KEY_BUILDING_DORFA_E</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_DORFA_E_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SP_CITY_BASIC_BUILDINGS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<HurryCostModifier>10</HurryCostModifier>
+			<FreeBuildingThisCity>BUILDINGCLASS_DORFA_T</FreeBuildingThisCity>
+			<!--无偿建筑多尔法技术部-->
+			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_DORFA_T</Type>
+			<!--多尔法技术部-->
+			<BuildingClass>BUILDINGCLASS_DORFA_T</BuildingClass>
+			<!--建筑类型-->
+			<Cost>-1</Cost>
+			<!--无法建造-->
+			<EnhancedYieldTech>TECH_SCIENTIFIC_THEORY</EnhancedYieldTech>
+			<!--加成所需科技科学理论-->
+			<Help>TXT_KEY_BUILDING_DORFA_T_HELP</Help>
+			<!--文本词条-->
+			<Description>TXT_KEY_BUILDING_DORFA_T</Description>
+			<!--文本词条-->
+			<GreatWorkCount>-1</GreatWorkCount>
+			<!--隐藏建筑-->
+			<MinAreaSize>-1</MinAreaSize>
+			<!--无需邻湖邻海-->
+			<HurryCostModifier>-1</HurryCostModifier>
+			<!--购买参数，-1为不可购买-->
+			<NeverCapture>true</NeverCapture>
+			<!--无法占领-->
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
+			<!--图标取材-->
+			<PortraitIndex>6</PortraitIndex>
+			<!--图标取材顺序-->
+		</Row>
+		
+		<Row>
+			<Type>BUILDING_FAIRY_SANCTUARY</Type>
+			<!--妖圣武装圣所-->
+			<BuildingClass>BUILDINGCLASS_FAIRY_SANCTUARY</BuildingClass>
+			<!--建筑类型-->
+			<Cost>-1</Cost>
+			<!--无法建造-->
+			<Description>TXT_KEY_BUILDING_FAIRY_SANCTUARY</Description>
+			<!--名称文本词条-->
+			<Help>TXT_KEY_BUILDING_FAIRY_SANCTUARY_HELP</Help>
+			<!--信息文本词条-->
+			<NukeModifier>-25</NukeModifier>
+			<!--核武伤亡减少-->
+			<MilitaryProductionModifier>25</MilitaryProductionModifier>
+			<!--建造作战单位产能加成-->
+			<NukeImmune>true</NukeImmune>
+			<!--核弹免疫-->
+			<MinAreaSize>-1</MinAreaSize>
+			<!--无需邻湖邻海-->
+			<HurryCostModifier>-1</HurryCostModifier>
+			<!--购买参数，-1为不可购买-->
+			<NeverCapture>true</NeverCapture>
+			<!--无法占领-->
+			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
+			<!--图标取材-->
+			<PortraitIndex>9</PortraitIndex>
+			<!--图标取材顺序-->
+		</Row>
+	</Buildings>
+
+	<!--产出修正-->
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_SUNFLOWER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORFA_E</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	<!--产出增加-->
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SUNFLOWER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORFA_E</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<!--全局产出修正-->
+	<Building_GlobalYieldModifiers>
+	</Building_GlobalYieldModifiers>
+
+	<!--本城人口产出修正-->
+	<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_DORFA_E</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORFA_E</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>
+
+	<!--科技后产出增加-->
+	<Building_TechEnhancedYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SUNFLOWER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUNFLOWER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_DORFA_E</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORFA_T</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_TechEnhancedYieldChanges>
+	
+	<Policy_BuildingClassYieldChanges>
+	<!--政策对建筑的影响-->
+		<Row>
+			<PolicyType>POLICY_COMMERCE</PolicyType>
+			<!--商业开门-->
+			<BuildingClassType>BUILDINGCLASS_SUNFLOWER_BOUNS</BuildingClassType>
+			<!--关联建筑向日葵庄-->
+			<YieldType>YIELD_GOLD</YieldType>
+			<!--金币加成-->
+			<YieldChange>3</YieldChange>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<!--理性开门-->
+			<BuildingClassType>BUILDINGCLASS_DORFA_T</BuildingClassType>
+			<!--关联建筑多尔法技术部-->
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<!--科研加成-->
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	
+	<Policy_BuildingClassYieldModifiers>
+	<!--政策对建筑的百分比加成-->
+		<Row>
+			<PolicyType>POLICY_COMMERCE</PolicyType>
+			<!--商业开门-->
+			<BuildingClassType>BUILDINGCLASS_SUNFLOWER_BOUNS</BuildingClassType>
+			<!--关联建筑向日葵庄-->
+			<YieldType>YIELD_GOLD</YieldType>
+			<!--金币加成-->
+			<YieldMod>15</YieldMod>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<!--理性开门-->
+			<BuildingClassType>BUILDINGCLASS_DORFA_T</BuildingClassType>
+			<!--关联建筑多尔法技术部-->
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<!--科研加成-->
+			<YieldMod>15</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	
+	<Building_DomainFreeExperiences>
+	<!--单位经验提升-->
+		<Row>
+			<BuildingType>BUILDING_FAIRY_SANCTUARY</BuildingType>
+			<!--关联建筑妖圣武装圣所-->
+			<DomainType>DOMAIN_LAND</DomainType>
+			<!--地面单位-->
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FAIRY_SANCTUARY</BuildingType>
+			<!--关联建筑妖圣武装圣所-->
+			<DomainType>DOMAIN_SEA</DomainType>
+			<!--海军单位-->
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FAIRY_SANCTUARY</BuildingType>
+			<!--关联建筑妖圣武装圣所-->
+			<DomainType>DOMAIN_AIR</DomainType>
+			<!--空中单位-->
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+
+	<!--地形产出-->
+	<Building_TerrainYieldChanges>
+	</Building_TerrainYieldChanges>
+
+	<!--资源产出-->
+	<Building_ResourceYieldChanges>
+	</Building_ResourceYieldChanges>
+
+	<!--地貌产出-->
+	<Building_FeatureYieldChanges>
+	</Building_FeatureYieldChanges>
+
+	<!--海洋产出-->
+	<Building_SeaPlotYieldChanges>
+	</Building_SeaPlotYieldChanges>
+
+	<!--湖泊产出-->
+	<Building_LakePlotYieldChanges>
+	</Building_LakePlotYieldChanges>
+
+	<!--沿河产出-->
+	<Building_RiverPlotYieldChanges>
+	</Building_RiverPlotYieldChanges>
+
+	<!--提供资源-->
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_SUNFLOWER</BuildingType>
+			<ResourceType>RESOURCE_CONSUMER</ResourceType>
+			<Quantity>5</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FAIRY_SANCTUARY</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>5</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+
+	<!--主题奖励-->
+	<Building_ThemingBonuses>
+	</Building_ThemingBonuses>
+
+	<!--建筑偏好-->
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_SUNFLOWER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUNFLOWER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUNFLOWER</BuildingType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUNFLOWER</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_DORFA_E</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORFA_E</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORFA_T</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORFA_T</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<!--原英文文本-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_FAIRY_SANCTUARY">
+			<Text>[ICON_WAR][ICON_STRENGTH]妖圣武装圣所</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FAIRY_SANCTUARY_HELP">
+			<Text>本城+5[ICON_RES_MANPOWER]人力，因[ICON_PROMOTION_STRATEGIC_BOMBER]战略轰炸造成的[ICON_CITIZEN]人口损失-25%。[NEWLINE][NEWLINE]组建[COLOR_POSITIVE_TEXT]作战单位[ENDCOLOR]时+25%[ICON_PRODUCTION]产能、+15[ICON_PROMOTION_SHOCK_3]初始经验。</Text>
+		</Row>
+	
+		<Row Tag="TXT_KEY_BUILDING_SUNFLOWER">
+			<Text>Sunflower Inn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUNFLOWER_HELP">
+			<Text>A Building that increases a city's [ICON_FOOD] Food. Land trade routes originating from this city have a 50% increase in range and produce an additional 2 [ICON_GOLD] Gold when connecting to another civilization. Recived 3 [ICON_PRODUCTION] production and 2 [ICON_RESEARCH] science after [ICON_RESEARCH] Banking. Replaces the Caravansary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SUNFLOWER_TEXT">
+			<Text>The place ran by Tiara's relative named Five-Star, a classical middle age woman. Though Tiara says that Five-Star has five-star-chef skill, Fang felt unbelievable judging by her appearances. Actually Five-Star's cousin's wife's eldest brother's friend is a 5-star chef so there is no way to prove her chef skill.[NEWLINE] However Mrs Five-Star is a warm-heart woman, she give her best sever to her coustomer and she's will to provide what they need.[NEWLINE] Fang and Tiara lives in Sunflower Inn as their base for a long time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUNFLOWER_STRATEGY">
+			<Text>The Caravansary is a Classical-era building, replacing the Caravansary. It improves the range and [ICON_GOLD] Gold yield of land trade routes.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_DORFA_E">
+			<Text>Dorfa's Engineering Department</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DORFA_E_HELP">
+			<Text>Dorfa's Engineering Department increases 0.5 [ICON_PRODUCTION] Production every [ICON_CITIZEN] Citizen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_DORFA_E_TEXT">
+			<Text>As the most powerful corporation in the world, Dorfa controls almost everything such as house property, engineering construction. Dorfa hold the market and there is nobody can win their business. Dorfa's proprieter Hanagata also hold his evil wish to wake Vile God and control this world. But he's powerless leads his death when Bernard betray him and Fang break his foolish wish. After his death, Marianna becomes Dorfa's new proprieter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DORFA_E_STRATEGY">
+			<Text>Dorfa's Engineering Departmentincreases [ICON_PRODUCTION] Production +15%. Replacing the Windmill. It can be built on hills.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_DORFA_T">
+			<Text>Dorfa's Technology Department</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DORFA_T_HELP">
+			<Text>Dorfa's Technology Department increases 0.5 [ICON_RESEARCH] Science every [ICON_CITIZEN] Citizen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_DORFA_T_TEXT">
+			<Text>As the most powerful corporation in the world, Dorfa controls almost everything such as house property, engineering construction. Dorfa hold the market and there is nobody can win their business. Dorfa's proprieter Hanagata also hold his evil wish to wake Vile God and control this world. But he's powerless leads his death when Bernard betray him and Fang break his foolish wish. After his death, Marianna becomes Dorfa's new proprieter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DORFA_T_STRATEGY">
+			<Text>Dorfa's Technology Departmentincreases [ICON_RESEARCH] Science +50%. Replacing the Observatory. It doesn't require Mountain.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

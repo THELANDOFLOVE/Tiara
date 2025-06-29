@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/19/2014 11:58:50 PM -->
+<GameData>
+	<Religions>
+		<Row>
+			<Type>RELIGION_GODDESS</Type>
+			<Description>TXT_KEY_RELIGION_GODDESS</Description>
+			<Civilopedia>TXT_KEY_RELIGION_GODDESS_PEDIA</Civilopedia>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>RELIGION_ATLAS_ALPHA_GODDESS</IconAtlas>
+			<IconString>[ICON_RELIGION_GODDESS]</IconString>
+		</Row>
+	</Religions>
+	<IconFontTextures>
+		<Row>
+			<IconFontTexture>ICON_FONT_TEXTURE_GODDESS</IconFontTexture>
+			<IconFontTextureFile>GODDESSFontIcons</IconFontTextureFile>
+		</Row>
+	</IconFontTextures>
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RELIGION_GODDESS</IconName>
+			<IconMapping>1</IconMapping>
+			<IconFontTexture>ICON_FONT_TEXTURE_GODDESS</IconFontTexture>
+		</Row>
+	</IconFontMapping>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>RELIGION_ATLAS_ALPHA_GODDESS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>GOD128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RELIGION_ATLAS_ALPHA_GODDESS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>GOD80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RELIGION_ATLAS_ALPHA_GODDESS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>GOD64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RELIGION_ATLAS_ALPHA_GODDESS</Atlas>
+			<IconSize>48</IconSize>
+			<Filename>GOD48.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RELIGION_ATLAS_ALPHA_GODDESS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>GOD32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RELIGION_ATLAS_ALPHA_GODDESS</Atlas>
+			<IconSize>16</IconSize>
+			<Filename>GOD16.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RELIGION_GODDESS">
+			<Text>Holy Goddess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_GODDESS_PEDIA">
+			<Text>The one of the ancient god, which brings hope and peace to the world. Goddess and Vile God fought each other, but both of them were sealed by countless Fury and lost their own power. To wake the Goddess or the Vile God up, fencer needs to collect Fury and Faith Drop.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
