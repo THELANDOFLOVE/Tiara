@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/7/2014 12:10:54 PM -->
+<GameData>
+	<BuildingClasses>
+		<!-- BuildingClass for the hidden building -->
+		<Row>
+			<Type>BUILDINGCLASS_TIARA_HELPER</Type>
+			<DefaultBuilding>BUILDING_TIARA_HELPER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TIARA_HELPER</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TIARA_MODIFIER</Type>
+			<DefaultBuilding>BUILDING_TIARA_MODIFIER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TIARA_HELPER</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+	<!-- Define the invisible/hidden building to add the rest of Tiara's Traits -->
+		<Row>
+			<Type>BUILDING_TIARA_HELPER</Type>
+			<BuildingClass>BUILDINGCLASS_TIARA_HELPER</BuildingClass>
+			<Description>TXT_KEY_BUILDING_TIARA_HELPER</Description>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<!-- Add stuff for hidden building -->
+		</Row>
+		<Row>
+			<Type>BUILDING_TIARA_MODIFIER</Type>
+			<BuildingClass>BUILDINGCLASS_TIARA_MODIFIER</BuildingClass>
+			<Description>TXT_KEY_BUILDING_TIARA_MODIFIER</Description>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<!-- Add stuff for hidden building -->
+		</Row>
+	</Buildings>
+
+	<Building_RiverPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TIARA_HELPER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_RiverPlotYieldChanges>
+	<Building_SeaPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TIARA_HELPER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SeaPlotYieldChanges>
+	<Building_LakePlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TIARA_HELPER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_LakePlotYieldChanges>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+
+		<!--For the mxxher fxxker Super Power-->
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PAGODA</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ART_GALLERY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+	<Building_BuildingClassHappiness>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+
+		<!--For the mxxher fxxker Super Power-->
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PAGODA</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIARA_MODIFIER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ART_GALLERY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Building_BuildingClassHappiness>
+
+	<Building_SeaResourceYieldChanges>
+	</Building_SeaResourceYieldChanges>
+
+	<Building_TerrainYieldChanges>
+	</Building_TerrainYieldChanges>
+
+	<Building_FeatureYieldChanges>
+	</Building_FeatureYieldChanges>
+
+	<Building_ResourceYieldChanges>
+	</Building_ResourceYieldChanges>
+
+	<Building_YieldChanges>
+	</Building_YieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TIARA_HELPER">
+			<Text>Tiara's Helper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIARA_MODIFIER">
+			<Text>Tiara's Modifier</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

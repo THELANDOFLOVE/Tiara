@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/26/2014 3:51:20 PM -->
+<GameData>
+	<!--设施-->
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_FURY</Type>
+			<Description>TXT_KEY_IMPROVEMENT_FURY</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_FURY_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MONOLITH_EURO</ArtDefineTag>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_FAIRY_FENCER</CivilizationType>
+			<BuildableOnResources>0</BuildableOnResources>
+			<OutsideBorders>0</OutsideBorders>
+			<DefenseModifier>100</DefenseModifier>
+			<CultureBombRadius>0</CultureBombRadius>
+			<NearbyEnemyDamage>0</NearbyEnemyDamage>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+
+	<!--产出-->
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Improvement_Yields>
+
+	<!--可用地形-->
+	<Improvement_ValidTerrains>
+	</Improvement_ValidTerrains>
+
+	<!--可用地貌-->
+	<Improvement_ValidFeatures>
+	</Improvement_ValidFeatures>
+
+	<!--开发资源-->
+	<Improvement_ResourceTypes>
+		<!--矿类-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+		<!--石头类-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+		</Row>
+		<!--营地类-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+		</Row>
+		<!--庄园类-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+		</Row>
+
+
+		<!--More Luxuries模组陆地奢侈-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_LAPIS</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_TEA</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_PERFUME</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_OLIVE</ResourceType>
+		</Row>
+
+		<!--考古遗迹加成-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_ARTIFACTS</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_HIDDEN_ARTIFACTS</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+
+	<!--资源奖励-->
+	<Improvement_ResourceType_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_ARTIFACTS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<ResourceType>RESOURCE_HIDDEN_ARTIFACTS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Improvement_ResourceType_Yields>
+
+	<!--科技奖励-->
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<TechType>TECH_ARCHAEOLOGY</TechType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<TechType>TECH_ARCHAEOLOGY</TechType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<TechType>TECH_ECOLOGY</TechType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<TechType>TECH_ECOLOGY</TechType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<!--建造事件-->
+	<Builds>
+		<Row>
+			<Type>BUILD_FURY</Type>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Time>900</Time>
+			<ImprovementType>IMPROVEMENT_FURY</ImprovementType>
+			<Description>TXT_KEY_BUILD_FURY</Description>
+			<EntityEvent>ENTITY_EVENT_IRRIGATE</EntityEvent>
+			<ShowInTechTree>false</ShowInTechTree>
+			<HotKey>KB_X</HotKey>
+			<OrderPriority>97</OrderPriority>
+			<IconIndex>54</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+
+	<!--地貌改变-->
+	<BuildFeatures>
+	</BuildFeatures>
+
+	<!--工人建造能力-->
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FURY</BuildType>
+		</Row>
+	</Unit_Builds>
+
+	<Language_en_US>
+		<Row tag="TXT_KEY_BUILD_FURY">
+			<Text>Constuct a Fury Relic</Text>
+		</Row>
+
+		<Row tag="TXT_KEY_IMPROVEMENT_FURY">
+			<Text>Fury Relic</Text>
+		</Row>
+		<Row tag="TXT_KEY_CIV5_IMPROVEMENTS_FURY_TEXT">
+			<Text>The special weapons used during the fight between Goddess and Vile God. The furies were used to seal each other away. But some Furies had not hit the Goddess or the Vile God, they were scattered in the real world. Usually these Furies hold a great power when they utilize fairies as a power source. And is's said that once you get all of these furies you can make your wish come ture.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

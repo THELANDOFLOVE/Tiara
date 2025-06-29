@@ -1,0 +1,1003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_zh_Hant_HK>
+		<!-- UU -->
+		<Row Tag="TXT_KEY_UNIT_MAGIC_AIRBOAT">
+			<Text>魔导空艇</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAGIC_AIRBOAT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]魔导空艇[ENDCOLOR]是妖精之剑的特色单位，代替[COLOR_POSITIVE_TEXT]直升机[ENDCOLOR]，解锁科技提前至[COLOR_CYAN]科学理论[ENDCOLOR]，相比常规的直升机而言战斗力偏低（70近战[ICON_STRENGTH]，60远程[ICON_STRENGTH]），但造价也随之下幅（400[ICON_PRODUCTION]）。[NEWLINE][NEWLINE]免除攻城惩罚且对[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]额外+50%[ICON_STRENGTH]战斗力，[ICON_PROMOTION_CQB_COMBAT_1][COLOR_POSITIVE_TEXT]近战攻击[ENDCOLOR]时投掷[ICON_PROMOTION_FIGHTER_SIEGE_1]航弹对目标邻近敌军造成50%溅射伤害，[ICON_PROMOTION_RANGE][COLOR_POSITIVE_TEXT]远程攻击[ENDCOLOR]时魔导炮[ICON_PROMOTION_BOMBARDMENT_3]扫射对目标进行压制，降低50%[ICON_MOVES]移动力且在2回合内-25%[ICON_STRENGTH]攻击力。[NEWLINE][NEWLINE]当研发[COLOR_CYAN]火箭[ENDCOLOR]后，战斗力获得提高（120近战[ICON_STRENGTH]，100远程[ICON_STRENGTH]，5视野[ICON_PROMOTION_SCOUTING_1]，10移动[ICON_MOVES]）。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAGIC_AIRBOAT_TEXT">
+			<Text>装备着魔导炮、有浮空能力的魔导空艇，拥有压倒性攻击力与高强度歼灭能力。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEATH_FROM_ABOVE">
+			<Text>死从天降</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEATH_FROM_ABOVE_HELP">
+			<Text>[NEWLINE][ICON_BULLET]对[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]+50%[ICON_STRENGTH]战斗力。[NEWLINE][ICON_BULLET][ICON_PROMOTION_CQB_COMBAT_1][COLOR_POSITIVE_TEXT]近战攻击[ENDCOLOR]时投掷[ICON_PROMOTION_FIGHTER_SIEGE_1]航弹对目标邻近敌军造成50%溅射伤害。[NEWLINE][ICON_BULLET][ICON_PROMOTION_RANGE][COLOR_POSITIVE_TEXT]远程攻击[ENDCOLOR]时魔导炮[ICON_PROMOTION_BOMBARDMENT_3]扫射对目标进行压制，降低50%[ICON_MOVES]移动力且陷入[COLOR_NEGATIVE_TEXT]士气低落[ENDCOLOR]状态。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MAGIC_AIRBOAT_RETROFIT">
+			<Text>现代化改造</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MAGIC_AIRBOAT_RETROFIT_HELP">
+			<Text>近战[ICON_STRENGTH]战斗力提升至120、远程[ICON_STRENGTH]战斗力提升至100，[ICON_PROMOTION_SCOUTING_1]视野+1、[ICON_MOVES]移动力+2。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DEATH_FROM_ABOVE_ATT">
+			<Text>在我军{1_UnitName}的火力压制下，敌军{2_EnUName}[ICON_MOVES]移动力降至</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DEATH_FROM_ABOVE_DEF">
+			<Text>在敌军{1_EnUName}的火力压制下，我军{2_UnitName}[ICON_MOVES]移动力降至</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DEATH_FROM_ABOVE_END">
+			<Text>，且陷入[COLOR_NEGATIVE_TEXT]士气低落[ENDCOLOR]状态。</Text>
+		</Row>
+	
+		<!-- UW -->
+		<Row Tag="TXT_KEY_BUILDING_PALACE_TIARA">
+			<Text>[COLOR_WHITE]封印之间[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PALACE_TIARA_TEXT">
+			<Text>藉由女神之力或邪神之力才可到达的介于现实与意识之间的空间，类似梦境一般的场所，被封印的女神与邪神在此异空间中沉睡，集中精力能明显得感受到双方身上散发出来的微弱魔力。连接到此处的剑士们可以利用他们收集到的妖圣武器中那些未契约的妖圣，将它们转移到被封印的神明身上早已失去力量的妖圣武器中，这样就可以慢慢地解开女神甚至是邪神的封印。[NEWLINE]但光是拔下所有的封印之妖圣武器依然无法解开它们的封印，此外还需要信仰之滴、到达神明对应的圣域等。[NEWLINE]缇亚拉一直坚持自己能到达此处是因为她的搭档裘伊所拥有的能力，然而事实上……</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_TIARA_STRATEGY">
+			<Text>您的首都是政府的所在地。在游戏前期会给您的首都提供大量的文化值、金币、科技值和生产力。它也会成为您的帝国的贸易系统核心。若您的城市被攻占，即使封印之间会于其他城市内自动转移，也会给您的文明带来相当大的损害（除非首都被您夺回，否则您就不可能赢得统治胜利）。保护好您的首都！[NEWLINE][NEWLINE][COLOR_CYAN]特殊效果：帝国市民工作范围提升为5格，在超级大国模组中，额外提供30份兵源、电力、商品。[ENDCOLOR][NEWLINE][COLOR_WARNING_TEXT]注意：提升帝国工作范围的能力需要DLL - Various Mod Components模块支持。[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_TIARA_HELP">
+			<Text>代表着一个国家的[ICON_CAPITAL]首都，全国[ICON_CITIZEN]市民+2[ICON_SGM_GROUP_ACT_OFF]工作范围，并提供三个[ICON_GREAT_WORK]美术杰作展位。[NEWLINE][NEWLINE]当其它城市与[ICON_CAPITAL]首都用道路[ICON_CONNECTED]连接将获得额外的[ICON_GOLD]金币。[NEWLINE][NEWLINE]每座[ICON_CULTURE][COLOR_MAGENTA]文化建筑[ENDCOLOR]提供额外的[ICON_CULTURE]文化、[ICON_HAPPINESS_1]快乐。以及+30[ICON_RES_CONSUMER]商品、[ICON_RES_ELECTRICITY]电力、[ICON_RES_MANPOWER]人力。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_PALACE_TIARA">
+			<Text>封印之间</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_PALACE_TIARA_HELP">
+			<Text>想使奖励最大化的话，需要三件来自本文明的美术杰作。</Text>
+		</Row>
+
+		<!-- UB -->
+		<Row Tag="TXT_KEY_BUILDING_SUNFLOWER">
+			<Text>[ICON_INTERNATIONAL_TRADE][ICON_FOOD]向日葵庄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUNFLOWER_HELP">
+			<Text>本城+15%[ICON_FOOD]食物，并提供三名[ICON_GREAT_MERCHANT][COLOR_YIELD_GOLD]商业家[ENDCOLOR]席位。[NEWLINE][NEWLINE]从本城起始的陆地[ICON_INTERNATIONAL_TRADE]商路距离+50%，每条贸易路线+6[ICON_GOLD]金币。[NEWLINE][NEWLINE]当研发[COLOR_CYAN]经济学[ENDCOLOR]后额外+2[ICON_FOOD]食物、[ICON_GOLD]金币。[NEWLINE][NEWLINE]当开启[COLOR_MAGENTA]商业政策[ENDCOLOR]后额外+3[ICON_GOLD]金币、+15%[ICON_GOLD]金币产出。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SUNFLOWER_TEXT">
+			<Text>由缇亚拉的亲戚——叁穗经营的地方，叁穗是一个很普通的女人，虽然缇亚拉坚称叁穗拥有三星级厨师的手艺，但梵格一眼看叁穗的外表就完全不相信。但事实上是叁穗的亲戚的老婆的长兄的朋友是一个三星级大厨，所以这完全无法证明叁穗拥有三星级厨师的手艺。[NEWLINE]不过叁穗是一个热心肠的人，她很乐意为她的顾客提供最好的服务和他们所需要的食物。[NEWLINE]梵格和缇亚拉以向日葵庄为活动据点并且在这里长期居住。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUNFLOWER_BOUNS">
+			<Text>向日葵商会</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUNFLOWER_BOUNS_HELP">
+			<Text>当开启[COLOR_MAGENTA]商业政策[ENDCOLOR]后+3[ICON_GOLD]金币、+15%[ICON_GOLD]金币产出。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_DORFA_E">
+			<Text>[ICON_RESEARCH][ICON_PRODUCTION]多尔法大厦</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DORFA_E_HELP">
+			<Text>本城+15%[ICON_PRODUCTION]产能，并提供两名[ICON_GREAT_ENGINEER][COLOR_YIELD_FOOD]工程师[ENDCOLOR]席位、一名[ICON_GREAT_SCIENTIST][COLOR_CYAN]科学家[ENDCOLOR]席位。[NEWLINE][NEWLINE]建造[COLOR_POSITIVE_TEXT]无需地形限制[ENDCOLOR]，本城每4[ICON_CITIZEN]人口+1[ICON_PRODUCTION]产能、[ICON_RESEARCH]科研。[NEWLINE][NEWLINE]当研发[COLOR_CYAN]建筑设计学/科学理论[ENDCOLOR]后额外+2[ICON_PRODUCTION]产能/[ICON_RESEARCH]科研。[NEWLINE][NEWLINE]当开启[COLOR_MAGENTA]理性政策[ENDCOLOR]后额外+3[ICON_RESEARCH]科研、+15%[ICON_RESEARCH]科研产出。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_DORFA_E_TEXT">
+			<Text>作为世界上最强盛的企业，多尔法控制了诸如房产、工程建设等几乎所有行业。多尔法垄断了整个市场没有任何企业可以战胜他们。多尔法的社长——花形抱着一个野心，那就是唤醒邪神并藉此控制整个世界。但是，在巴纳德背叛他、梵格等人不断挫败他愚蠢的野心时，他的无能终究导致了他的死亡。在花形社长死去之后，玛丽安努取代他成为了多尔法的新一代社长。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DORFA_T">
+			<Text>多尔法技术部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DORFA_T_HELP">
+			<Text>提供一名[ICON_GREAT_SCIENTIST][COLOR_CYAN]科学家[ENDCOLOR]席位。[NEWLINE][NEWLINE]当开启[COLOR_MAGENTA]理性政策[ENDCOLOR]后额外+3[ICON_RESEARCH]科研、+15%[ICON_RESEARCH]科研产出。</Text>
+		</Row>
+
+		<!-- UI Texts -->
+		<Row tag="TXT_KEY_BUILD_FURY">
+			<Text>建设一个妖圣武器遗迹</Text>
+		</Row>
+		<Row tag="TXT_KEY_IMPROVEMENT_FURY">
+			<Text>妖圣武器遗迹</Text>
+		</Row>
+		<Row tag="TXT_KEY_CIV5_IMPROVEMENTS_FURY_TEXT">
+			<Text>一种在女神与邪神相互战斗时被使用的特殊武器。妖圣武器被双方用于封印彼此。但一部分的妖圣武器并没有命中女神或是邪神，而是散落在世界的各处。通常来说这些妖圣武器都拥有着强大的力量同时它们能利用妖圣作为它们的动力源。传闻当有人收集了所有散落在世界各处的妖圣武器后将可以实现愿望。</Text>
+		</Row>
+
+		<!-- Trait Texts -->
+		<Row Tag="TXT_KEY_TRAIT_NOBILIARY_MANNER">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]沿河[ENDCOLOR]、[COLOR_POSITIVE_TEXT]湖泊[ENDCOLOR]、[COLOR_POSITIVE_TEXT]海洋[ENDCOLOR]地块+1[ICON_GOLD]金币产出，[COLOR_POSITIVE_TEXT]作战单位[ENDCOLOR]对抗蛮族时+50%[ICON_STRENGTH]战斗力。[NEWLINE][ICON_BULLET][ICON_GREAT_WRITER][ICON_GREAT_ARTIST][ICON_GREAT_MUSICIAN]艺术伟人诞生速率+33%，建造[ICON_CULTURE][COLOR_MAGENTA]文化建筑[ENDCOLOR]时+50%[ICON_PRODUCTION]产能，所有[ICON_GREAT_WORK]杰作+5[ICON_CULTURE]文化产出。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_NOBILIARY_MANNER_SHORT">
+			<Text>[COLOR_CYAN]妖圣遗产/贵族风范[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NOBILIARY_MANNER">
+			<Text>[COLOR_CYAN]贵族风范[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIARA_HELPER">
+			<Text>妖圣遗产</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIARA_MODIFIER">
+			<Text>贵族风范</Text>
+		</Row>
+
+		<!-- Leader Texts -->
+		<Row Tag="TXT_KEY_LEADER_TIARA">
+			<Text>缇亚拉</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIARA_LIVED">
+			<Text>??? - ???</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIARA_NAME">
+			<Text>缇亚拉</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIARA_SUBTITLE">
+			<Text>邪神巫女</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIARA_TITLES_1">
+			<Text>妖精剑士</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIARA_HEADING_1">
+			<Text>成为剑士</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIARA_TEXT_1">
+			<Text>全名缇亚拉缇利斯缇亚斯，幼年时被母亲独自抚养长大，在她的母亲即将病逝的时候得知了自己的身世。缇亚拉一族是邪神的后裔，复活邪神既是他们的终身目标，缇亚拉的母亲在怀上她后发现了这个事实并逃离了这个家族。接受了自己身世的缇亚拉不想屈服与自己的邪神之血，走上了成为剑士的道路，在一家武器店的深处唤醒了她命中的搭档裘伊，从此她们开始以复活女神为世界带来和平为目标，收集散落于世界各地的妖圣武器。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIARA_HEADING_2">
+			<Text>剑士生涯</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIARA_TEXT_2">
+			<Text>作为一名少女剑士，她拥有着大小姐气质以及优雅的举止，但同时个性认真却莫名地拥有轻微的受虐倾向。鉴于自己所拥有的邪神血脉和与之共存的赎罪感，她形成了一种极强的正义感，缇亚拉会尽全力帮助有困扰的人——哪怕对方是假装的，对于那些坏蛋们，她也不会轻易地放过他们。[NEWLINE]缇亚拉的一生从她遇到不成熟的新人剑士梵格和他的搭档艾琳开始改变，她开始结识更多的伙伴，也开始认识到并非所有做了坏事的人都是出于本心。在与梵格他们一行人的旅途中，他们互相帮助、一起成长，关系也变得更融洽，有那么几次机会她尝试坦言自己的身世，但却缺乏勇气终究没有说出来。在女神的圣域的惨烈战斗中，梵格一行人终究因为力量不足而引发惨剧。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIARA_HEADING_3">
+			<Text>作为邪神的后裔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIARA_TEXT_3">
+			<Text>邪神的后裔是邪神为了让自己的封印得以解除而出现的存在，这一些人一般都会如同巴纳德一样受到血脉的影响而充满野心和对力量的渴求。缇亚拉即使极力想要反抗这种宿命，但有时她也无法抵挡邪神的呼唤而失去意识，并尝试去唤醒邪神。而另一方面，不管是为了给邪神的复活提供祭品，又或是希望通过让邪神吸收自己的后裔得以进一步地强化力量，缇亚拉一直都是这些人的首要目标。</Text>
+		</Row>
+
+		<!-- CIV Texts -->
+		<Row Tag="TXT_KEY_CIV_FAIRY_FENCER_DESC">
+			<Text>妖精之剑</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_1">
+			<Text>关于妖圣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_1">
+			<Text>一种无法用常规科学解释的生物，一般寄宿在他们自身的妖圣武器上，妖圣没有固定的形态，他们可以是只有松鼠那么大的小动物、也可以与常人无异，甚至是巨龙一般的生物。妖圣没有物理上的寿命的概念，但是一旦他们与人类订下契约，那么双方的生命就会联系到一起，当剑士失去生命，妖圣也会随之消亡。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_2">
+			<Text>关于剑士</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_2">
+			<Text>世界上少数能够驾驭妖圣武器的人，拥有妖圣武器的他们理所当然地拥有强大的力量，如同童话故事一般只有被选中的人才能成为剑士，但这不代表所有的剑士都是品德高尚的人，他们也有可能是嗜血的狂人。剑士的使命是收集妖圣武器，解开神明的封印，同时世界上最大的企业多尔法也为了实现自己的野望而不断将剑士收入摩下。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_3">
+			<Text>关于女神与邪神</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_3">
+			<Text>传说中分别掌管着和平的女神与掌管混乱的邪神，他们在异空间中互相战斗，通过妖圣武器对双方进行封印，但很不幸的是在他们的战斗分出胜负之前，两者都由于身上无数的妖圣武器遭到封印，陷入了沉睡。传说唤醒女神将可以实现世界的永远和平，而一旦邪神被唤醒，世界将陷入永远的黑暗时代当中。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_4">
+			<Text>关于魔神</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_4">
+			<Text>在历史中完全销声匿迹的第三位神明，也是同时受到女神与邪神抑制的强力神明，一旦女神或是邪神被完全消灭，魔神将会从封印中缓慢苏醒。魔神的血液能给饮下它的人带来强大的力量，同时也会令对方精神变得不稳定，少量的血液只会让受害者情绪暂时高涨而且带有极强的中毒性、上瘾症状，而大量摄入魔神血液的人会精神恍惚，不久就会成为废人。最可怕的是沉迷与这种血液也等同与将自身的灵魂献给魔神，魔神通过啃食人类的灵魂，力量会进一步得到强化。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_5">
+			<Text>关于多尔法</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_5">
+			<Text>世界上最强大的公司，业务范围囊括家具、交通、房产等方方面面，几乎形成了彻底的市场垄断，同时公司高层注重慈善事业等，一直营造出良好的企业形象，是所有人都最梦寐以求的就业对象。但多尔法私底下在不断地招安有实力的剑士为他们的野望收集妖圣武器，试图唤醒邪神统治世界。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_HEADING_6">
+			<Text>关于赛普特利昂俱乐部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TEXT_6">
+			<Text>赛普特利昂俱乐部一直在暗中活动，他们是试图唤醒除女神与邪神以外强大神明的组织，目前他们目标选定为魔神，然而，即使女神与邪神双双陷入沉睡，他们也无法轻易地复活魔神，但一旦女神或是邪神任一方被完全消灭，这一个狂人组织就会倾巢出动。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FAIRY_FENCER_TITLE">
+			<Text>妖精之剑</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_FAIRY_FENCER_SHORT_DESC">
+			<Text>妖精之剑</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_FAIRY_FENCER_ADJECTIVE">
+			<Text>妖精之剑</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_FAIRY_FENCER_TEXT">
+			<Text>很久很久以前，在光明与黑暗都还有生命的时候[NEWLINE]光明为女神 黑暗为邪神[NEWLINE]两者不断展开激烈的战斗[NEWLINE]邪神以人类的生命与悲叹为粮 女神以人类的梦想与希望为粮[NEWLINE]为求一己之存续 鏖战多时 不知凡几[NEWLINE]最终光明与黑暗互相吞噬[NEWLINE]光明被黑暗侵蚀 黑暗被光明分裂 两者都失去了生命[NEWLINE]迈向死亡的陨星 像是跌落闪烁与暗黑的世界之中[NEWLINE]女神与邪神就这样陷入永眠</Text>
+		</Row>
+
+
+		<!-- Religion Texts -->
+		<Row Tag="TXT_KEY_RELIGION_GODDESS">
+			<Text>神圣女神</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_GODDESS_PEDIA">
+			<Text>女神是远古神明之一，她会给世界带来希望与和平。女神与邪神互相战斗，但最终双方都被无数的妖圣武器封印而失去力量。要唤醒女神或是邪神，剑士需要收集妖圣武器和信仰之滴。</Text>
+		</Row>
+
+		<!-- City Texts -->
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_0">
+			<Text>封印之间</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_1">
+			<Text>大都市瑟温斯</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_2">
+			<Text>索悠尔草原</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_3">
+			<Text>克拉维塞洞窟</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_4">
+			<Text>亚达刚熔窟</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_5">
+			<Text>卡塔尔卡司冰窟</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_6">
+			<Text>奇达纳尔地区</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_7">
+			<Text>休凯斯之塔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_8">
+			<Text>索鲁奥尔村</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_9">
+			<Text>布伊谷</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_10">
+			<Text>萨瓦萨平原</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_11">
+			<Text>赴地回廊</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_12">
+			<Text>卡瓦列沙漠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_13">
+			<Text>卡瓦列沙漠 - 圣域</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_14">
+			<Text>鲁多凯熔炉遗迹</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_15">
+			<Text>卢撒姆德冰穴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_16">
+			<Text>颠倒圆塔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_17">
+			<Text>杰贝利亚溪谷</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_18">
+			<Text>赴天楼层</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_19">
+			<Text>多尔法人类牧场</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_20">
+			<Text>达斯希洛平原</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_21">
+			<Text>邪神体内</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_22">
+			<Text>旦斯克莱特遗迹</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_23">
+			<Text>正义会拘留所</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_24">
+			<Text>德鲁艾尔红酒工厂</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_25">
+			<Text>塞帝普亚洞窟</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_26">
+			<Text>德鲁艾尔中央工厂</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRY_FENCER_27">
+			<Text>雷亚里姆遗迹</Text>
+		</Row>
+
+		<!-- Spy Texts -->
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_0">
+			<Text>美蒂斯</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_1">
+			<Text>京子</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_2">
+			<Text>希尔菲丝</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_3">
+			<Text>哈比</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_4">
+			<Text>涅夫</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_5">
+			<Text>米奈莉</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_6">
+			<Text>白雪</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_7">
+			<Text>库可</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_8">
+			<Text>莱特</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_9">
+			<Text>莉塔</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_10">
+			<Text>甘莱特</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_11">
+			<Text>盖札</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_12">
+			<Text>丘尼斯</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FAIRY_FENCER_13">
+			<Text>吉兹米</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+		<!-- Talking Texts -->
+		<Row Tag="TXT_KEY_LEADER_TIARA_DEFEATED_1">
+			<Text>怎么可能……我居然……</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DEFEATED_2">
+			<Text>对不起……裘伊……</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DEFEATED_3">
+			<Text>看来是我大意了呢……</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DEFEATED_4">
+			<Text>我……还不可以……</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_FIRSTGREETING_1">
+			<Text>贵安，先做自我介绍吧，我是缇亚拉，缇亚拉缇利斯缇亚斯。请多指教。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_FIRSTGREETING_2">
+			<Text>很高兴见到你，陌生人。我是缇亚拉，是一名剑士。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_FIRSTGREETING_3">
+			<Text>这位旅人，一路长途跋涉一定很疲劳了吧，正好这里有一些洋甘菊茶，不介意的话，请务必一起享用。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_REPEAT_TRADE_1">
+			<Text>那么，这个贸易条件，是什么意思？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_REPEAT_TRADE_2">
+			<Text>你认为这是一个平等的交易吗？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_REPEAT_1">
+			<Text>嗯？还有什么事情未做完么？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_REPEAT_2">
+			<Text>贵安，其实我觉得你应该在自己的国家上投入更多的时间不是么？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_REPEAT_TOO_MUCH_1">
+			<Text>怎么了？你为什么还在这里逗留呢？我还以为你的事情都已经做完了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_HOSTILE_REPEAT_1">
+			<Text>不可以。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_HOSTILE_REPEAT_2">
+			<Text>请容许我拒绝。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_POLITE_HELLO_1">
+			<Text>欢迎。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_NEUTRAL_HELLO_1">
+			<Text>您好。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_HOSTILE_HELLO_1">
+			<Text>……唉……（叹气）。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_HOSTILE_HELLO_2">
+			<Text>嗯……什么？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_DESTRUCTION_LOOMS_1">
+			<Text>看来这一次是我的失败，那么你想要什么？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_DESTRUCTION_LOOMS_2">
+			<Text>虽然很不想承认，但这是我输了，你是来谈条件的吗？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_AT_WAR_WANTS_PEACE_1">
+			<Text>这场冲突已经没有意义了，我们握手言和吧。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_AT_WAR_HOSTILE_1">
+			<Text>你在想什么…？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_AT_WAR_HOSTILE_2">
+			<Text>很抱歉……我没有这个打算。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_BROKEN_MILITARY_PROMISE_1">
+			<Text>真是遗憾……我还以为你是一个会遵守诺言的人。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_WORKING_WITH_1">
+			<Text>很高兴见到您，请问今天有什么要事吗？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>很抱歉，我目前没有说闲话的时间，希望你动作能快一点。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_HUMAN_AT_WAR_1">
+			<Text>有什么要说的就马上说吧，你现在应该很忙才对。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_HOSTILE_AGGRESSIVE_MILITARY_1">
+			<Text>我留意到你那浩浩荡荡的军队了，希望你能给我一个合理的解释。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_AGGRESSIVE_MILITARY_1">
+			<Text>你的军队的位置引起了人们的不安，我希望你能注意一下。那么请问你有什么事情吗？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>对于你的帝国疯狂扩张的问题，我不能视而不见，请你有所节制。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>在开始办事之前请容我提醒一下你，没有节制的城市扩张只会带来更多的麻烦。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>你的军队真是强大，恐怕那些坏人里面，只有做事不经大脑的笨蛋才会向你发起挑战吧。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>你们的经济如此的繁荣。可以的话真想到你的国家游玩游玩。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>出于对你的尊敬，我还是坦言直说吧，你的军队太过弱小了，请注意自己的安危。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_TOO_SOON_FOR_DOF_1">
+			<Text>真是抱歉，我们之间并没有一定的了解，这样的事情还为时过早。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DENOUNCING_FRIEND_1">
+			<Text>这真的是我的失误，我应该早一点就认识到你是一个不值得信任的人。[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]她们对你进行了谴责！[NEWLINE]　注意: 但这并不意味着戦争。[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>就我个人来说，虽然是有那么一丝心动，但关系到我的伙伴们的话，我是不会就这么放过你的。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DOFED_FRIEND_1">
+			<Text>很高兴，你真的和{1_CivName}成为朋友了吗？我很高兴，希望我们之间能更多地互相合作。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DOFED_ENEMY_1">
+			<Text>我建议你还是不要太相信{1_CivName}，至少，我认为他们并不值得信任。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>我只想让你知道，我跟{1_CivName}有过合作，他们是值得信赖的人。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>非常高兴你能跟我有同样的想法，{1_CivName}很显然并不是什么好人。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>{1_CivName}也一样跟我公开宣布了友谊，为什么我们不在这基础上，进行进一步的合作呢？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>你说的没错！{1_CivName}的确就是不值得信任的家伙！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>真是令人失望，我本希望你跟{1_CivName}不会是同样的存在。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DENOUNCE_SO_AI_DOF_1">
+			<Text>很显然，你的敌人既是我的盟友，{1_CivName}必定是值得尊敬的人。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>既然如此，那么我将全力迎战。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>我注意到你附近暗藏的大量部队了，这样的军队又是什么意思？要开始战争吗？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_KILLED_PROTECTED_CITY_STATE_1">
+			<Text>真是难以置信！你居然对{@1_MinorCivName}做出这等暴行！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_PROTECTED_CITY_STATE_1">
+			<Text>我们已经注意到你对{@1_MinorCivName}的所作所为了，我劝你最好停下。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_EXPANSION_SERIOUS_WARNING_1">
+			<Text>请不要以为，我不过问就不知道你的所作所为，如果你继续进行肆无忌惮的扩张，那么你一定会后悔的。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_EXPANSION_WARNING_1">
+			<Text>我注意到你的扩张行为了，我建议你尽快放弃。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_EXPANSION_BROKEN_PROMISE_1">
+			<Text>从一开始我就不应该相信你的每一句话，你迟早会付出代价。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>够了，不要再购买这附近的土地了，我原本以为你是一个明白事理的人。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_PLOT_BUYING_WARNING_1">
+			<Text>我就直说了，请不要再继续购买这些有争议的土地。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_PLOT_BUYING_BROKEN_PROMISE_1">
+			<Text>打破约定的这件事！绝对不会这么轻易就结束！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DEC_FRIENDSHIP_1">
+			<Text>我们相处的时间也不短了，我相信你是一个值得信赖的人，我希望我们之间能有一个公开的友好宣言并且以后有更多的合作，你觉得怎么样呢？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DENOUNCE_1">
+			<Text>真是遗憾，你的一言一行都不值得信任。[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]她们对你进行了谴责！[NEWLINE]　注意: 但这并不意味着戦争。[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_COOP_WAR_REQUEST_1">
+			<Text>我与{1_PlayerName:textkey}之间的矛盾恐怕只有通过一战才能解决了。你愿意祝我一臂之力吗？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_COOP_WAR_TIME_1">
+			<Text>一起对抗{1_PlayerName:textkey}的时候到了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_NOW_UNFORGIVABLE_1">
+			<Text>我们之间有人倒下为止，这场冲突就不会结束……</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_NOW_ENEMY_1">
+			<Text>我不想要这样，但我已经没有选择了！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_BOOT_KISSING_1">
+			<Text>很显然大家都很顾忌你的力量，希望你能用这力量维护和平而不是欺负弱小。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_WARMONGER_1">
+			<Text>你最近的所作所为已经广为人知了，说真的，我劝诫你早日收手。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_MINOR_CIV_COMPETITION_1">
+			<Text>我留意到你跟{1_MinorCivName:textkey}的关系了，但我希望你不要继续插手干涉下去了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_TIARA_1">
+			<Text>哪怕你处于多么悲惨的处境，我也不会起任何同情。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_TIARA_2">
+			<Text>真是一副丢人的姿态，你就只有这点水平了么。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_TIARA_3">
+			<Text>真是不好意思，我并不想在这里见到你。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_MILITARY_1">
+			<Text>如此弱小的军队，你最好注意一点。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_MILITARY_2">
+			<Text>这样子的军队，我建议你最好尽快扩军呢。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_BULLY_1">
+			<Text>事到如今居然还有人欺凌弱小，真是的难看。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_UNHAPPINESS_1">
+			<Text>你如此无能的领导我真是无法相信居然还有人愿意追随你。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_CITIES_1">
+			<Text>你的文明长期一蹶不振，恐怕是遇到了什么麻烦吧~</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_POPULATION_1">
+			<Text>据说你们正在面临巨大的经济危机呢，然而，这根本与我无关。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_CULTURE_1">
+			<Text>看到这幅景象，我甚至在怀疑，你其实只是一个蛮族头领而已吧？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INSULT_NUKE_1">
+			<Text>我现在出现在这里，只是为了提醒你，不要在我们面前做过分的事情，否则你将承担相应的后果。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_REPEAT_NO_1">
+			<Text>我拒绝！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DONT_SETTLE_YES_1">
+			<Text>了解了，我们不会再做过分的扩张行为。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DONT_SETTLE_NO_1">
+			<Text>这些是我们的事情，请你不要插手！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_WORK_WITH_US_YES_1">
+			<Text>这真是太好了！希望我们能一起合作！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DECLINE_1">
+			<Text>抱歉，不可以。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DECLINE_2">
+			<Text>请容许我拒绝。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_COOP_WAR_YES_1">
+			<Text>我正有此意，那么我们开始吧。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_COOP_WAR_SOON_1">
+			<Text>不错的提案，不过请等一阵子，我们需要准备准备。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DEMAND_YES_1">
+			<Text>这可是你挑起的事情，我照单全收了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DEMAND_REFUSE_WEAK_1">
+			<Text>我希望你能看清目前的处境，你并没有这个能耐。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DEMAND_REFUSE_WEAK_2">
+			<Text>请你不要再自欺欺人了，你根本做不到。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DEMAND_REFUSE_HOSTILE_1">
+			<Text>别开玩笑了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DEMAND_REFUSE_HOSTILE_2">
+			<Text>不要糊弄我！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DEMAND_REFUSE_TOO_MUCH_1">
+			<Text>不可能！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DEMAND_REFUSE_TOO_MUCH_2">
+			<Text>你自己到底在说什么，你自己知道吗？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_DEMAND_REFUSE_TOO_SOON_1">
+			<Text>你的贪欲真是令蛮族都自愧不如。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_LETS_HEAR_IT_1">
+			<Text>是什么事情？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_LETS_HEAR_IT_2">
+			<Text>有什么事情就说出来吧。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_PEACE_OFFER_1">
+			<Text>是时候握手言和了，你觉得呢？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DEMAND_1">
+			<Text>真不好意思，你拥有我们需要的东西，希望你能在事情闹大之前交出来。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_REQUEST_ITEM_1">
+			<Text>很不幸，我们碰到了点麻烦，我只能求助与你了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_OPEN_BORDERS_EXCHANGE_1">
+			<Text>我认为互相开放国境应该有助于双方的发展，不知道你是否同意。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_OPEN_BORDERS_OFFER_1">
+			<Text>我们有事希望你能准许开放领土的通行权。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESEARCH_AGREEMENT_OFFER_1">
+			<Text>一起签订科研协议一定能对双方的科研大有帮助。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RENEW_DEAL_1">
+			<Text>这一份协议即将到期但它层给我们带来了友谊，也许你不介意进行续约？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_WANT_MORE_RENEW_DEAL_1">
+			<Text>很可惜，这一项交易已经没有以前的力度了，作为一次公平的交易，恐怕你们要付出更多。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_LUXURY_TRADE_1">
+			<Text>就算是奢侈品，大众也有着不低的需求，不知道你是否同意这次交易。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_HOSTILE_1">
+			<Text>很可惜！你的这一举动完全在我的意料之中！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_HOSTILE_2">
+			<Text>这是你自找的！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_WEAK_HOSTILE_1">
+			<Text>也许现在并不是一个好的时机，但我会尽全力挫败你。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_WEAK_HOSTILE_2">
+			<Text>愿女神为我们带来胜利。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_STRONG_HOSTILE_1">
+			<Text>既然你希望这样了，那么我就尽全力让你知道自己的无力。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_STRONG_HOSTILE_2">
+			<Text>难以置信你居然做出这种无谋的举动。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_STRONG_HOSTILE_3">
+			<Text>我要令你后悔！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_EXCITED_1">
+			<Text>是吗，终于到我出场了！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_EXCITED_2">
+			<Text>要后悔的话就太迟了！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_WEAK_EXCITED_1">
+			<Text>不要小看女神的力量！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_STRONG_EXCITED_1">
+			<Text>那么，让我们开始吧！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_SAD_1">
+			<Text>你令我感到失望。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_SAD_2">
+			<Text>我只希望你不会为此感到后悔。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_BETRAYED_1">
+			<Text>你这么做的话其它人也会知道你的背叛，看来你也是有所觉悟了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_ATTACKED_MILITARY_PROMISE_BROKEN_1">
+			<Text>真令人遗憾，你的罪行恐怕是无人不知无人不晓了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DOW_OPPORTUNITY_1">
+			<Text>既然你给了我这么一个机会，那么我就很感激地收下了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DOW_OPPORTUNITY_2">
+			<Text>等待了这么久，你终于有所松懈了，这怪不得我。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DOW_OPPORTUNITY_3">
+			<Text>愿你能毫无痛苦地离去。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DOW_DESPERATE_1">
+			<Text>也许我的处境非常的令人绝望，但这是我最后的机会了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DOW_DESPERATE_2">
+			<Text>也许我会就这么走向毁灭，但至少，在最后我也要挫败你。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DOW_DESPERATE_3">
+			<Text>我早已觉悟，不过如何我都要尝试打倒你。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DOW_BETRAYAL_1">
+			<Text>很抱歉做出这种事情，但轻易相信别人的你，也可以说是有错吧？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DOW_WEAK_BETRAYAL_1">
+			<Text>哪怕只有百分之一不到的机会，但若是我放弃了就什么都结束了，觉悟吧！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_WAR_DEMAND_REFUSED_1">
+			<Text>了解了，真是不好意思……</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_WAR_DEMAND_REFUSED_2">
+			<Text>我并不同意。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_PEACE_WHAT_WILL_HUMAN_OFFER_1">
+			<Text>那么你想怎么样？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_PEACE_WHAT_WILL_HUMAN_OFFER_2">
+			<Text>你还想要什么？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_PEACE_WHAT_WILL_HUMAN_OFFER_3">
+			<Text>要如何让这次的战争结束？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_NO_PEACE_1">
+			<Text>很遗憾，这事还远远没有结束。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_NO_PEACE_2">
+			<Text>哪怕你发自内心恳求我，我也不会就这么停下。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_NO_PEACE_3">
+			<Text>我深知和平往往伴随着牺牲，我也不想发生这种事情，但给你的教训还不够。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_TOO_SOON_NO_PEACE_1">
+			<Text>别说这样的笑话了！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_RESPONSE_PLEASED_1">
+			<Text>我知道了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_RESPONSE_PLEASED_2">
+			<Text>我了解了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_RESPONSE_PLEASED_3">
+			<Text>感谢。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_RESPONSE_THANKFUL_1">
+			<Text>真的很感激。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_RESPONSE_DISAPPOINTED_1">
+			<Text>真是令人遗憾。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_RESPONSE_DISAPPOINTED_2">
+			<Text>我了解了，我不会强求你。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_SO_BE_IT_1">
+			<Text>随它去。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RETURNED_CIVILIAN_1">
+			<Text>很感激你的无私行动，被你拯救的人也很感激你。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CULTURE_BOMBED_1">
+			<Text>这是什么意思！？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CULTURE_BOMBED_2">
+			<Text>你这是什么意思，不要做太过分的事情</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HOSTILE_AGGRESSIVE_MILITARY_WARNING_BAD_1">
+			<Text>至少你向我坦白了，我不怪你。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HOSTILE_AGGRESSIVE_MILITARY_WARNING_GOOD_1">
+			<Text>那我姑且相信了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_AGGRESSIVE_MILITARY_WARNING_BAD_1">
+			<Text>我一直提防着的事情果然还是发生了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_AGGRESSIVE_MILITARY_WARNING_GOOD_1">
+			<Text>那么我就相信了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HOSTILE_WE_ATTACKED_MINOR_BAD_1">
+			<Text>那么我们等着瞧。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HOSTILE_WE_ATTACKED_MINOR_GOOD_1">
+			<Text>你说得没错。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_WE_ATTACKED_MINOR_BAD_1">
+			<Text>就目前的状况来说，我相信这是有必要的。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_RESPONSE_BAD_1">
+			<Text>我一开始还期待你能听懂道理。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_RESPONSE_BAD_2">
+			<Text>你真的是令人失望。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_RESPONSE_BAD_3">
+			<Text>真可惜，但愿我以后不用再见到你。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HOSTILE_WE_ATTACKED_YOUR_MINOR_1">
+			<Text>很遗憾，但我相信失去{@1_MinorCivName}对你来说一定会是个不小的打击。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HOSTILE_WE_ATTACKED_YOUR_MINOR_2">
+			<Text>你就没想过为{@1_MinorCivName}做点什么吗？原来你只有这种程度。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_WE_ATTACKED_YOUR_MINOR_1">
+			<Text>我似乎不小心冒犯了{@1_MinorCivName}，但我希望你能理解这不是跟你过意不去。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_EMBASSY_EXCHANGE_1">
+			<Text>不知道你是否介意我们双方互相派遣大使，这也更方便进一步的外交事项。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_EMBASSY_OFFER_1">
+			<Text>我想要在你的国家设立大使馆，不知道你怎么想。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_BULLIED_PROTECTED_CITY_STATE_1">
+			<Text>已经够了，你最好停止对{@1_MinorCivName}的欺凌。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_BULLIED_PROTECTED_CITY_STATE_2">
+			<Text>我不知道你怎么想的，但欺凌{@1_MinorCivName}想必不是一个好主意，希望你能醒悟。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HOSTILE_WE_BULLIED_YOUR_MINOR_1">
+			<Text>很遗憾，我知道你无法保护{@1_MinorCivName}，当然我也相信这么欺凌{@1_MinorCivName}一定能引起你的强烈不满。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_WE_BULLIED_YOUR_MINOR_1">
+			<Text>我突然发现{@1_MinorCivName}受到了军队的索求。我希望你不会把这个事情看得太重要。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_SAME_POLICIES_FREEDOM_1">
+			<Text>很高兴有人跟我一样崇尚自由，我们将一起创建一个自由的世界。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_SAME_POLICIES_ORDER_1">
+			<Text>我们都一样选择了秩序呢！一起努力让国家变得更繁荣吧。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_SAME_POLICIES_AUTOCRACY_1">
+			<Text>你也选择了独裁呢。相信你也明白，必须要有人带领，才能够有一个强盛的国家。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CAUGHT_YOUR_SPY_HOSTILE_1">
+			<Text>你的肮脏手段真是令人难以置信，希望你能尽早住手。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CAUGHT_YOUR_SPY_FRIENDLY_1">
+			<Text>我希望以后不会再发生这样的间谍事件了，你能保证么。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_CAUGHT_YOUR_SPY_GOOD_1">
+			<Text>我明白了，这次就这么过去了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_CAUGHT_YOUR_SPY_BAD_1">
+			<Text>既然你一意孤行，那我只希望你不会在以后因此吃下恶果。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_STOP_SPYING_YES_1">
+			<Text>好的，我们会停止这样的活动。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_STOP_SPYING_NO_1">
+			<Text>这次我并不想说什么漂亮的外交辞令，但我相信你也明白，情报是无价的，所以我们并不会就这么收手。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_WARNED_ABOUT_INTRIGUE_1">
+			<Text>感谢你把{@1_CivAdjective}的计划告诉我们！我们会妥善处理。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_SHARE_INTRIGUE_DECEPTION_1">
+			<Text>{1_PlayerName}似乎对你打着什么主意。希望你能有所准备。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_KNOWN_CITY_1">
+			<Text>我们发现{1_PlayerName}的军队正在向{2_CityName}前进。希望你能尽快做好对应措施。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_UNKNOWN_CITY_1">
+			<Text>我们发现{1_PlayerName}的军队正在向你靠近，但目的地尚不明确。希望你能尽快做好对应措施。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_KNOWN_CITY_1">
+			<Text>{1_PlayerName}的海军正在向{2_CityName}前进。希望你能尽快做好对应措施。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_UNKNOWN_CITY_1">
+			<Text>{1_PlayerName}的海军正在向你靠近，但目的地尚不明确。希望你能尽快做好对应措施。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_KILLED_YOUR_SPY_1">
+			<Text>关于之前你们的间谍的事情，我希望你能给我一个合适的理由。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_KILLED_MY_SPY_1">
+			<Text>就近期的事情，我真是非常抱歉，在此希望能得到你的原谅。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CONFRONT_YOU_KILLED_MY_SPY_1">
+			<Text>既然被你们发现了，那我也不打算抵赖什么，你有什么想说的吗？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_SUSPECT_YOU_OF_SPYING_1">
+			<Text>我收到了我们的情报被流出的消息，你跟这件事情没有关系吧？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_SUSPECT_YOU_OF_SPYING_2">
+			<Text>说真的，我希望近期情报遭到窃取的事情，并不是你的所作所为。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_STOP_CONVERSIONS_1">
+			<Text>我已经注意到这几次传教活动了，希望你不要干涉人民的信仰。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_HUMAN_KILLED_MY_SPY_UNFORGIVEN_1">
+			<Text>无法得到原谅也是预期的事情了，我早已有心理准备。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_HUMAN_KILLED_MY_SPY_FORGIVEN_1">
+			<Text>你能不计前嫌，我很开心。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_STOP_CONVERSIONS_GOOD_1">
+			<Text>你们能明白，我很开心。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_STOP_CONVERSIONS_BAD_1">
+			<Text>我完全无法理解你的狂信。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_HUMAN_STOP_CONVERSIONS_AGREE_1">
+			<Text>了解了。我们不会进行过多的干涉。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_HUMAN_STOP_CONVERSIONS_DISAGREE_1">
+			<Text>你就这么不希望我让世人明白和平的可贵么，但这没那么容易。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_GREETING_WILL_ACCEPT_SURRENDER_1">
+			<Text>很遗憾，事到如今你只能放弃了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_WE_LIKE_HUMAN_PROPOSAL_1">
+			<Text>很感谢你在{1_LeagueName}上的提案。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_WE_DISLIKE_HUMAN_PROPOSAL_1">
+			<Text>你在{1_LeagueName}上的所作所为，我希望不会成为双方之间冲突的导火索。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_SUPPORTED_OUR_PROPOSAL_1">
+			<Text>很高兴你们在{1_LeagueName}当中为我提供的协助！我绝对不会忘记！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_FOILED_OUR_PROPOSAL_1">
+			<Text>在{1_LeagueName}我的提案遭到否决，希望你不会因此后悔。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_HUMAN_SUPPORTED_OUR_HOSTING_1">
+			<Text>非常感谢你们的支持，通过{1_LeagueName}，我希望能让世界更加美好。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_TRADE_CANT_MATCH_OFFER_1">
+			<Text>很遗憾我们没办法给出公平的筹码。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_TRADE_CANT_MATCH_OFFER_2">
+			<Text>非常抱歉……我们没有足够的资源。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_STOP_DIGGINGX_1">
+			<Text>请容许我提醒你，我们的遗迹不允许随意挖掘！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_STOP_DIGGING_DISAGREE_1">
+			<Text>很可惜，这次我无法满足你的要求。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_STOP_DIGGING_AGREE_1">
+			<Text>如你所愿，我们不会再这么做了。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_HUMAN_STOP_DIGGING_BAD_1">
+			<Text>你令我非常失望。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_RESPONSE_HUMAN_STOP_DIGGING_GOOD_1">
+			<Text>很高兴你能认识到挖掘别人的遗迹是不好的行为。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DIPLO_DISCUSS_DONT_STOP_DIGGING">
+			<Text>抱歉呢。无论如何我都不会妥协。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_DIPLO_DISCUSS_STOP_DIGGING">
+			<Text>很抱歉，我们是无意的。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CIVIL_RESISTANCE_ON_AI_BY_FREEDOM_1">
+			<Text>自由与平等的思想已经在国民的内心扎根，我完全无法相信这一切。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CIVIL_RESISTANCE_ON_AI_BY_ORDER_1">
+			<Text>人民基层对秩序革命的不断追求，工人罢工的恐惧真是深入人心，真是令人畏惧。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CIVIL_RESISTANCE_ON_AI_BY_AUTOCRACY_1">
+			<Text>以领导人自身的无上权力引领人民居然能受到人们的认同，我真是无法想象这样的未来。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CIVIL_RESISTANCE_ON_HUMAN_BY_FREEDOM_1">
+			<Text>我注意到你的人民对压迫充满了不满，一起去追寻自由吧。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CIVIL_RESISTANCE_ON_HUMAN_BY_ORDER_1">
+			<Text>你的国家中，社会底层的人民充满了压迫与愤怒，我劝诫你不要无视他们的渴求。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_CIVIL_RESISTANCE_ON_HUMAN_BY_AUTOCRACY_1">
+			<Text>你的人民需要有力的领导，你应该顺应他们的需求带领他们前进。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_SWITCHED_TO_FREEDOM_1">
+			<Text>很高兴你能认同我们对于自由理念的追随。愿我们能够共同长久地合作。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_SWITCHED_TO_ORDER_1">
+			<Text>推行秩序的真理，必定能为国家带来翻天巨变，你一定不会后悔。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_SWITCHED_TO_AUTOCRACY_1">
+			<Text>以一个拥有至高权力的强大的领袖带领国家发展，一人的意志即国家的意志，你绝对不会后悔的。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIARA_INFLUENTIAL_ON_HUMAN_1">
+			<Text>贵国的人们似乎都很喜欢我们这边的文化呢，希望你也能有同样的感受。</Text>
+		</Row>
+	</Language_zh_Hant_HK>
+</GameData>

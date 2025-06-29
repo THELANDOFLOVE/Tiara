@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_GREAT_GENERAL</Class>
+			<!--单位类别-->
+			<Type>UNIT_FAIRY_SAINT</Type>
+			<!--妖圣-->
+			<Cost>-1</Cost>
+			<!--生产花费产能-->
+			<Combat>1</Combat>
+			<!--单位战斗力-->
+			<RangedCombat>1</RangedCombat>
+			<!--单位远程战斗力-->
+			<Range>0</Range>
+			<!--单位基础射程-->
+			<BaseSightRange>3</BaseSightRange>
+			<!--视野-->
+			<Moves>4</Moves>
+			<!--移动力-->
+			<Special>SPECIALUNIT_PEOPLE</Special>
+			<!--伟人-->
+			<Domain>DOMAIN_LAND</Domain>
+			<!--陆地单位-->
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<!--单位类型近战步兵-->
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<!--AI使用参考-->
+			<Description>TXT_KEY_UNIT_FAIRY_SAINT</Description>
+			<!--单位名文本-->
+			<Civilopedia>TXT_KEY_UNIT_FAIRY_SAINT_TEXT</Civilopedia>
+			<!--单位历史介绍-->
+			<Strategy>TXT_KEY_CIV5_GREATGENERALS_TEXT</Strategy>
+			<!--单位使用策略-->
+			<Help>TXT_KEY_UNIT_FAIRY_SAINT_HELP</Help>
+			<!--单位游戏信息-->
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<!--进阶费用-->
+			<XPValueAttack>3</XPValueAttack>
+			<!--攻击获得经验-->
+			<XPValueDefense>3</XPValueDefense>
+			<!--防御获得经验-->
+			<WorkRate>9999</WorkRate>
+			<!--工作效率-->
+			<UnitArtInfo>ART_DEF_UNIT_CHTHOLLY</UnitArtInfo>
+			<!--外观形象-->
+			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
+			<!--图标-->
+			<PortraitIndex>8</PortraitIndex>
+			<!--图标顺序-->
+			<UnitFlagAtlas>RELIGION_ATLAS_ALPHA_GODDESS</UnitFlagAtlas>
+			<!--旗帜取材文件-->
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<!--旗帜取材顺序-->
+		</Row>
+	</Units>
+	
+	<Unit_FreePromotions>
+	<!--单位初始晋升-->
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<PromotionType>PROMOTION_GREAT_GENERAL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<PromotionType>PROMOTION_FAIRY_SAINT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<PromotionType>PROMOTION_ANTI_DEBUFF</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<Unit_AITypes>
+	<!--ai战术，对玩家没用-->
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UnitAIType>UNITAI_GENERAL</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	
+	<Unit_Flavors>
+	<!--ai建造参考数值，对玩家没用-->
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Unit_Flavors>
+	
+	<UnitGameplay2DScripts>
+	<!--单位被选中时音效-->
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<SelectionSound>AS2D_SELECT_FAIRY_SAINT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FAIRY_SAINT</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT">
+			<Text>妖圣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]妖圣[ENDCOLOR]是妖精之剑的特色单位，代替[ICON_GREAT_GENERAL][COLOR_POSITIVE_TEXT]陆军统帅[ENDCOLOR]。在拥有[ICON_GREAT_GENERAL][COLOR_POSITIVE_TEXT]陆军统帅[ENDCOLOR]的能力下，还可身先士卒的参与[ICON_WAR]战斗，自身[ICON_STRENGTH]战斗力跟随时代变化。[NEWLINE][NEWLINE]当研究[COLOR_CYAN]核裂变[ENDCOLOR]后获得[COLOR_WHITE]潘多拉核心[ENDCOLOR]晋升。[COLOR_POSITIVE_TEXT]免疫核攻击[ENDCOLOR]，[ICON_PROMOTION_SHOCK_3]经验获取速率+100%、[ICON_STRENGTH]战斗力+25%、最大[ICON_PROMOTION_MEDIC]生命上限+50、[ICON_MOVES]移动力+1。[NEWLINE][NEWLINE]位于己方[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]时，可转变为妖圣武装并设立[ICON_WAR][ICON_STRENGTH]妖圣武装圣所，提供[ICON_WAR]军事上的援助。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_TEXT">
+			<Text>
+				很久很久以前，邪神与女神曾发生过斗争。[NEWLINE]
+				战争陷入相持不下的状态，两者都以本身的力量以及妖圣所凭依特殊武器互相对峙。[NEWLINE]
+				而这股力量也因此将对方封印，并从这世上消失···[NEWLINE]
+				斗转星移，时间来到了现代，那些能够使用女神与邪神所遗留下来的武器“妖圣武装”的人被称为“剑士”。[NEWLINE]
+				“妖圣武装”强大的力量，据说只要收集所有女神就能够实现愿望，因此经常发生剑士们互相争夺妖圣武装的情况。
+			</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_SP_BTNNOTE_BUILDING_FAIRY_SANCTUARY_SHORT">
+			<Text>设立妖圣武装圣所</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_BUILDING_FAIRY_SANCTUARY">
+			<Text>在本城市设立一座[ICON_WAR][ICON_STRENGTH]妖圣武装圣所。+5[ICON_RES_MANPOWER]人力，因[ICON_PROMOTION_STRATEGIC_BOMBER]战略轰炸造成的[ICON_CITIZEN]人口损失-25%。[NEWLINE][NEWLINE]组建[COLOR_POSITIVE_TEXT]作战单位[ENDCOLOR]时+25%[ICON_PRODUCTION]产能、+15[ICON_PROMOTION_SHOCK_3]初始经验。[NEWLINE][NEWLINE]该指令会让妖圣不可逆的转化为妖圣武装，每座城市只能设立一座[ICON_WAR][ICON_STRENGTH]妖圣武装圣所。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME0">
+			<Text>[ICON_CAPITAL][COLOR_CYAN]珂朵莉[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME1">
+			<Text>[ICON_CAPITAL][COLOR_NEGATIVE_TEXT]艾琳[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME2">
+			<Text>[ICON_TROPHY_GOLD][COLOR_WHITE]果林[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME3">
+			<Text>[ICON_TROPHY_SILVER][COLOR_WHITE]龙心[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME4">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_YIELD_FOOD]玛莉莎[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME5">
+			<Text>[ICON_CAPITAL][COLOR_YIELD_GOLD]莉塔[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME6">
+			<Text>[ICON_CAPITAL][COLOR_CULTURE_STORED]盖札[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME7">
+			<Text>[ICON_TROPHY_GOLD][COLOR_YIELD_GOLD]佛恩[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME8">
+			<Text>[ICON_TROPHY_GOLD][COLOR_POSITIVE_TEXT]威斯[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME9">
+			<Text>[ICON_TROPHY_SILVER][COLOR_SELECTED_TEXT]罗[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME10">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_YIELD_FOOD]莉莉娜[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME11">
+			<Text>[ICON_TROPHY_GOLD][COLOR_PLAYER_FRANCE_BACKGROUND]美蒂斯[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME12">
+			<Text>[ICON_TROPHY_GOLD][COLOR_SELECTED_TEXT]米拉密米米[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME13">
+			<Text>[ICON_TROPHY_GOLD][COLOR_CULTURE_STORED]吉兹[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME14">
+			<Text>[ICON_TROPHY_GOLD][COLOR_YIELD_GOLD]甘莱特[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME15">
+			<Text>[ICON_TROPHY_GOLD][COLOR_NEGATIVE_TEXT]达克姆多斯[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME16">
+			<Text>[ICON_TROPHY_SILVER][COLOR_YIELD_FOOD]神雷[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME17">
+			<Text>[ICON_TROPHY_SILVER][COLOR_POSITIVE_TEXT]弗尔[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME18">
+			<Text>[ICON_TROPHY_SILVER][COLOR_NEGATIVE_TEXT]京子[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME19">
+			<Text>[ICON_TROPHY_SILVER][COLOR_SELECTED_TEXT]格兰·格兰[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME20">
+			<Text>[ICON_TROPHY_SILVER][COLOR_WATER_TEXT]库可[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME21">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_WATER_TEXT]冰雪[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME22">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_PLAYER_FRANCE_BACKGROUND]莱布斯[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME23">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_CULTURE_STORED]谢德冈[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME24">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_YIELD_GOLD]尼尔斯[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME25">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_SELECTED_TEXT]涅利[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME26">
+			<Text>[ICON_TROPHY_GOLD][COLOR_CULTURE_STORED]多恩[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME27">
+			<Text>[ICON_TROPHY_SILVER][COLOR_YIELD_FOOD]米奈莉[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME28">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_WATER_TEXT]宾特[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME29">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_YIELD_FOOD]迪亚[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME30">
+			<Text>[ICON_TROPHY_SILVER][COLOR_POSITIVE_TEXT]哈尔匹亚[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME31">
+			<Text>[ICON_TROPHY_SILVER][COLOR_PLAYER_FRANCE_BACKGROUND]温蒂[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME32">
+			<Text>[ICON_TROPHY_SILVER][COLOR_WATER_TEXT]席格鲁德[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME33">
+			<Text>[ICON_TROPHY_SILVER][COLOR_NEGATIVE_TEXT]尤拉[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME34">
+			<Text>[ICON_TROPHY_SILVER][COLOR_YIELD_GOLD]莱特[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME35">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_SELECTED_TEXT]涅夫[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME36">
+			<Text>[ICON_TROPHY_SILVER][COLOR_CULTURE_STORED]丘尼斯[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME37">
+			<Text>[ICON_TROPHY_SILVER][COLOR_PLAYER_FRANCE_BACKGROUND]那维[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME38">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_NEGATIVE_TEXT]烈焰[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME39">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_YIELD_FOOD]鞍马[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME40">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_POSITIVE_TEXT]里德[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME41">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_WATER_TEXT]Fanny J[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME42">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_NEGATIVE_TEXT]PXS-04G[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME43">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_PLAYER_FRANCE_BACKGROUND]赛尔[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FAIRY_SAINT_NAME44">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_POSITIVE_TEXT]希尔菲丝[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+	
+	<Unit_UniqueNames>
+	<!--单位名称-->
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME0</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME1</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME2</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME3</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME4</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME5</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME6</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME7</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME8</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME9</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME10</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME11</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME12</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME13</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME14</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME15</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME16</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME17</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME18</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME19</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME20</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME21</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME22</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME23</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME24</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME25</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME26</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME27</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME28</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME29</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME30</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME31</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME32</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME33</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME34</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME35</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME36</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME37</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME38</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME39</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME40</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME41</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME42</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME43</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FAIRY_SAINT</UnitType>
+			<UniqueName>TXT_KEY_UNIT_FAIRY_SAINT_NAME44</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+	
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_CHTHOLLY</Type>
+			<DamageStates>1</DamageStates>
+		</Row>
+	</ArtDefine_UnitInfos>
+	
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_CHTHOLLY</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_CHTHOLLY</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_CHTHOLLY</Type>
+			<Scale>0.20</Scale>
+			<Model>233_keduoli.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CHTHOLLY</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk</EnableActions>
+			<ShortMoveRadius>12.0</ShortMoveRadius>
+			<ShortMoveRate>0.349999994039536</ShortMoveRate>
+			<TargetHeight>8.0</TargetHeight>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CHTHOLLY</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>METAL</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>SWORD</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CHTHOLLY</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>20.0</VisKillStrengthMax>
+			<WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+			<MissTargetSlopRadius>10.0</MissTargetSlopRadius>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_CHTHOLLY</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Hittite_WarChariot.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+	
+</GameData>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/15/2014 1:44:10 AM -->
+<GameData>
+	<!--声音定义 对应文件名-->
+	<Audio_Sounds>
+		<!-- Leader Themes -->
+			<Row>
+				<SoundID>SND_LEADER_MUSIC_TIARA_PEACE</SoundID>
+				<Filename>TIARA_THEME</Filename>
+				<LoadType>DynamicResident</LoadType>
+			</Row>
+			<Row>
+				<SoundID>SND_LEADER_MUSIC_TIARA_WAR</SoundID>
+				<Filename>TIARA_WAR</Filename>
+				<LoadType>DynamicResident</LoadType>
+			</Row>
+			<Row>
+				<SoundID>SND_DOM_SPEECH_FAIRY_FENCER</SoundID>
+				<Filename>TIARA_DOM</Filename>
+				<LoadType>DynamicResident</LoadType>
+			</Row>
+			
+			<Row>
+				<SoundID>SND_SELECT_FAIRY_SAINT</SoundID>
+				<Filename>FAIRY_SAINT_Select</Filename>
+				<LoadType>DynamicResident</LoadType>
+			</Row>
+			<Row>
+				<SoundID>SND_BIRTH_FAIRY_SAINT</SoundID>
+				<Filename>FAIRY_SAINT_FirstSelect</Filename>
+				<LoadType>DynamicResident</LoadType>
+			</Row>
+	</Audio_Sounds>
+	<!--音乐定义 对应声音-->
+	<Audio_2DSounds>
+		<!-- Leader Themes -->
+			<Row>
+				<ScriptID>AS2D_LEADER_MUSIC_TIARA_PEACE</ScriptID>
+				<SoundID>SND_LEADER_MUSIC_TIARA_PEACE</SoundID>
+				<SoundType>GAME_MUSIC</SoundType>
+				<MinVolume>60</MinVolume>
+				<MaxVolume>60</MaxVolume>
+				<IsMusic>true</IsMusic>
+				<Priority>1</Priority>
+				<Looping>1</Looping>
+			</Row>
+			<Row>
+				<ScriptID>AS2D_LEADER_MUSIC_TIARA_WAR</ScriptID>
+				<SoundID>SND_LEADER_MUSIC_TIARA_WAR</SoundID>
+				<SoundType>GAME_MUSIC</SoundType>
+				<MinVolume>60</MinVolume>
+				<MaxVolume>60</MaxVolume>
+				<IsMusic>true</IsMusic>
+				<Priority>1</Priority>
+				<Looping>1</Looping>
+			</Row>
+			<Row>
+				<ScriptID>AS2D_DOM_SPEECH_FAIRY_FENCER</ScriptID>
+				<SoundID>SND_DOM_SPEECH_FAIRY_FENCER</SoundID>
+				<SoundType>GAME_SPEECH</SoundType>
+				<MinVolume>60</MinVolume>
+				<MaxVolume>60</MaxVolume>
+			</Row>
+			
+		<Row>
+			<ScriptID>AS2D_SELECT_FAIRY_SAINT</ScriptID>
+			<SoundID>SND_SELECT_FAIRY_SAINT</SoundID>
+			<SoundType>GAME_SFX</SoundType>
+			<MaxVolume>100</MaxVolume>
+			<MinVolume>100</MinVolume>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_BIRTH_FAIRY_SAINT</ScriptID>
+			<SoundID>SND_BIRTH_FAIRY_SAINT</SoundID>
+			<SoundType>GAME_SFX</SoundType>
+			<MaxVolume>100</MaxVolume>
+			<MinVolume>100</MinVolume>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

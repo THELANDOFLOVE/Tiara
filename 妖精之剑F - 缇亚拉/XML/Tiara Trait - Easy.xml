@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--基础特质-->
+	<Traits>
+		<Row>
+			<Type>TRAIT_NOBILIARY_MANNER</Type>
+			<Description>TXT_KEY_TRAIT_NOBILIARY_MANNER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_NOBILIARY_MANNER_SHORT</ShortDescription>
+			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<FreeBuilding>BUILDING_TIARA_HELPER</FreeBuilding>
+		</Row>
+	</Traits>
+
+	<!--设施修正-->
+	<Trait_ImprovementYieldChanges>
+	</Trait_ImprovementYieldChanges>
+
+	<!--专家修正-->
+	<Trait_SpecialistYieldChanges>
+	</Trait_SpecialistYieldChanges>
+
+	<!--未改良地貌修正-->
+	<Trait_UnimprovedFeatureYieldChanges>
+	</Trait_UnimprovedFeatureYieldChanges>
+
+	<!--资源数量修正-->
+	<Trait_ResourceQuantityModifiers>
+	</Trait_ResourceQuantityModifiers>
+
+	<!--特定Combat单位无偿晋升-->
+	<Trait_FreePromotionUnitCombats>
+	</Trait_FreePromotionUnitCombats>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_NOBILIARY_MANNER">
+			<Text>Earn [ICON_GREAT_PEOPLE] Art Great People 33% faster. All culture building speeds up [ICON_PRODUCTION] +50% and they give more [ICON_CULTURE] culture and few [ICON_HAPPINESS_1] happiness. [ICON_TOURISM]Great Work increas 5 [ICON_CULTURE] culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_NOBILIARY_MANNER_SHORT">
+			<Text>[COLOR_CYAN]Nobiliary Manner[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

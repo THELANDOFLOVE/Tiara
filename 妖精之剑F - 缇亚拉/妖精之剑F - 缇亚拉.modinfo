@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e8572933-81b3-4cc1-947f-a67566795c0d" version="4">
+  <Properties>
+    <Name>妖精之剑F - 缇亚拉</Name>
+    <Stability>Beta</Stability>
+    <Teaser>“路途中的您，想必已经疲劳了吧。稍微饮下一些甘菊茶吧。可以的话请一起享用。”</Teaser>
+    <Description>个人自制FFF文明 测试阶段 当前版本为简易版[NEWLINE]搭载了贤狼政策UAlua VV外交画面变更 文化旅游界面变更等技术[NEWLINE]严禁私下分流，修改作者信息，批判人物还有传播魔改版本[NEWLINE]贴吧ID:疯癫De沙包 SteamID:Gustab.M</Description>
+    <Authors>Gustab.M</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>0</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="5" maxversion="999" title="Super Power - Remaking of World Order" />
+  </Dependencies>
+  <References>
+    <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="5" maxversion="999" title="Super Power - Remaking of World Order" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="46546A34A4EE576ECC6B2C926AD4F8D3" import="1">Core/CultureOverview.lua</File>
+    <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">Core/CultureOverview.xml</File>
+    <File md5="440a66524107b2e6ae14843eb377518c" import="1">Core/LeaderHeadImageOverride.lua</File>
+    <File md5="25778f580dab7f8163a2cc182553308e" import="0">Core/LeaderHeadImageOverride.xml</File>
+    <File md5="9fe89c2d73c7e98b16eb7cced0753a19" import="0">Core/LeaderSceneChanger.sql</File>
+    <File md5="A03ADC5B3C15475E88DCDCCD1A5A601E" import="0">Core/FFFLua.lua</File>
+    <File md5="581B6BEDE032BB01A7368F7427E386E4" import="1">Core/FFFTrait.lua</File>
+	<File md5="2D444A25D1E395DF9286300E84A86ECB" import="0">Core/Tiara_CombatRule.lua</File>
+	<File md5="FDF00E79BC64D591AF439944C1A27814" import="0">Core/Tiara_TNLSupport.sql</File>
+    <File md5="d9f9b4047cff989ff18e8d23081882dd" import="1">Art/TiaraSceneOverride.dds</File>
+    <File md5="130970eeb95a0023c3411fca867b8089" import="1">Art/TiaraSceneOverrideGuarded.dds</File>
+    <File md5="b21c3a0dc769720a1252d9a08e64c751" import="1">Art/TiaraSceneOverrideAfraid.dds</File>
+    <File md5="9ad8a89e31678a6c14c154443e623748" import="1">Art/TiaraSceneOverrideDefeat.dds</File>
+    <File md5="99f6b0f499178678610265c4518dcd25" import="1">Art/TiaraSceneOverrideFriendly.dds</File>
+    <File md5="318df9f4fc510a432db5bcc7e2f1dacf" import="1">Art/TiaraSceneOverrideDenouncingHostileWar.dds</File>
+    <File md5="d9f9b4047cff9707f18e8d23081882dd" import="1">ART/TIARAPeace.dds</File>
+    <File md5="FDF20528DD22D9D6C8158226458F5B25" import="1">ART/TIARA DOM image.dds</File>
+    <File md5="B7607419D8CF5AE7353A4C8C0AD3E8FA" import="1">ART/TIARA Map image.dds</File>
+    <File md5="925A410C8950AD669A48C907BAF4250E" import="1">ART/Icon/TAtlas128.dds</File>
+    <File md5="EAC588F82A4B2398BD45A8EC3BBB9B43" import="1">ART/Icon/TAtlas256.dds</File>
+    <File md5="ab45d3e7144c1f213c645c5abf11eae6" import="1">ART/Icon/TAtlas16.dds</File>
+    <File md5="cc7d6de38777e0886addb93be34a7039" import="1">ART/Icon/TAtlas24.dds</File>
+    <File md5="BFCCF101CB0DD9760226BC3FA9A35750" import="1">ART/Icon/TAtlas32.dds</File>
+    <File md5="56167812eb4738c3dc0740e821f8a5d6" import="1">ART/Icon/TAtlas48.dds</File>
+    <File md5="5112D19D5DC2573FAB6954CCD95CEDCD" import="1">ART/Icon/TAtlas45.dds</File>
+    <File md5="0296F906DDDE6D67BC3975285DFC4C1F" import="1">ART/Icon/TAtlas64.dds</File>
+    <File md5="E1B4C3D902CA9EF52603FD9431CC2567" import="1">ART/Icon/TAtlas80.dds</File>
+    <File md5="69A74541EB0B4069FBE7DC0D2CF18CE4" import="1">ART/Icon/TIconAtlas128.dds</File>
+    <File md5="9D1C74E7F8A8B5530CFB3760FC915EA8" import="1">ART/Icon/TIconAtlas256.dds</File>
+    <File md5="182EFA04387A584B9D8861D6B5247DFB" import="1">ART/Icon/TIconAtlas32.dds</File>
+    <File md5="517408e0d169d89b5f83ade975669485" import="1">ART/Icon/TIconAtlas48.dds</File>
+    <File md5="5A86DB6710D50D568C064E611BF843B7" import="1">ART/Icon/TIconAtlas45.dds</File>
+    <File md5="653D7068CD86DF22A5487E1958EC1803" import="1">ART/Icon/TIconAtlas64.dds</File>
+    <File md5="2E736DAFAC7586CDD15E0ABFBBB3114F" import="1">ART/Icon/TIconAtlas80.dds</File>
+    <File md5="92AD2E2FC26D48A8F8FF014BC7047623" import="1">ART/Religion/GODi.dds</File>
+    <File md5="1D51A982905D56F35EA804898E6F56BE" import="1">ART/Religion/GOD128.dds</File>
+    <File md5="D103BB0CF541772C739BE74E4E43A748" import="1">ART/Religion/GOD16.dds</File>
+	<File md5="D4CBAC2FEBE19342AAB2BCBDBD143AAA" import="1">ART/Religion/GOD24.dds</File>
+    <File md5="EB3CDD23E500D94910A3E3AA9881AC38" import="1">ART/Religion/GOD32.dds</File>
+    <File md5="A74979830790BF9FA80A0A704F3190E9" import="1">ART/Religion/GOD48.dds</File>
+    <File md5="B1969AB461789F3D0BCF111B1C6AB6EC" import="1">ART/Religion/GOD64.dds</File>
+    <File md5="E9AD96B3B84F4DF8F3C0EA8970A8119D" import="1">ART/Religion/GOD80.dds</File>
+	<File md5="3C1CB22AADA509AB09CA7C5753143810" import="1">ART/Promotion/PromoIconAtlas_256.dds</File>
+    <File md5="9197C631ED303D2B50571428F6AE73DF" import="1">ART/Promotion/PromoIconAtlas_32.dds</File>
+    <File md5="FC03341C63BD79B54D97F444431A9E89" import="1">ART/Promotion/PromoIconAtlas_45.dds</File>
+    <File md5="AFB402C903F15496EA4911A70A5BA05E" import="1">ART/Promotion/PromoIconAtlas_64.dds</File>
+    <File md5="9A21A2C2826CC49614D0B3CE85C0C019" import="1">XML/GODDESSFontIcons.ggxml</File>
+    <File md5="A6D42D0DE20EABC809B7453F8B74F60A" import="0">XML/GODDESS_Religion.xml</File>
+    <File md5="5C7C9676A0F2751BB08C73AC1DD0A22D" import="1">Game Music/TIARA_THEME.mp3</File>
+    <File md5="F87FFE65CD1EA7028400682D92BE46EE" import="1">Game Music/TIARA_DOM.mp3</File>
+	<File md5="51A543FD17C5D9A30E06A04A935390DB" import="1">Game Music/TIARA_WAR.mp3</File>
+	<File md5="7875533C5BDAD3F7C13D776DF112D85A" import="1">Game Music/FAIRY_SAINT_FirstSelect.wav</File>
+	<File md5="32946355E2D1E275D682C7047FDD58B7" import="1">Game Music/FAIRY_SAINT_Select.wav</File>
+	<File md5="87865134C1CCB6CF8FE07500D58E059B" import="1">Game Music/233_keduoli_amb_attack_T1.wav</File>
+	<File md5="DEC895650EFC99A0AB0C428D772B864E" import="1">Game Music/233_keduoli_attack-000.wav</File>
+	<File md5="3373593CDE362C7D0522415876F5CD04" import="1">Game Music/233_keduoli_attack-001.wav</File>
+	<File md5="1B5DFBD994CFE6167B83A56B612BD5D0" import="1">Game Music/233_keduoli_attack-002.wav</File>
+	<File md5="7176EB823CE8B280A323ED4B3EC0146E" import="1">Game Music/233_keduoli_death-000.wav</File>
+	<File md5="EC92061ACDBA1F8A462ADD33492E05EE" import="1">Game Music/233_keduoli_death-001.wav</File>
+	<File md5="5672BD0720E2A450A1F0B587B3D2277F" import="1">Game Music/233_keduoli_victory-000.wav</File>
+	<File md5="6DDC952680474D174D8A6E39D1ED76D0" import="1">Game Music/233_keduoli_victory-001.wav</File>
+	<File md5="AC410AAD766C04D162473C66A28A7708" import="1">Game Music/233_keduoli_victory-002.wav</File>
+	<File md5="4D385182BDD00839F0251327C447F790" import="0">Core/233_Sounds.sql</File>
+  <File md5="0B123D5587106288E6E16C921118569C" import="1">Art/FAIRY_SAINT/233_keduoli.dds</File>
+  <File md5="D352602D290DE80728D8B451274A04A9" import="1">Art/FAIRY_SAINT/233_keduoli_b.dds</File>
+  <File md5="294EEB58333ECFCD52C6390D97A7CFC0" import="1">Art/FAIRY_SAINT/233_keduoli_b1.dds</File>
+	<File md5="324C66E2349497E30E94DCFF6CF2E7EA" import="1">Art/FAIRY_SAINT/233_keduoli.fxsxml</File>
+	<File md5="38A7807467354AA346D20ABAE5DC19C7" import="1">Art/FAIRY_SAINT/fx_triggers_233_keduoli.ftsxml</File>
+	<File md5="F7DBA70434D1E94A292E61C8659605AC" import="1">Art/FAIRY_SAINT/233_keduoli.gr2</File>
+	<File md5="1980EBB7E88AD14CFCD06E848E5C1E64" import="1">Art/FAIRY_SAINT/233_keduoli_bat_idle.gr2</File>
+	<File md5="AE66551CCABE7F9F804D7A19459000CC" import="1">Art/FAIRY_SAINT/233_keduoli_bat_run.gr2</File>
+	<File md5="37D80D49CF59BBE930C5902ABADB8FCA" import="1">Art/FAIRY_SAINT/233_keduoli_bat_specialidle.gr2</File>
+	<File md5="C2DA12AB7743A025486D60E97689F888" import="1">Art/FAIRY_SAINT/233_keduoli_dance.gr2</File>
+	<File md5="30005A0EB34F75D033D25DD38E2F4225" import="1">Art/FAIRY_SAINT/233_keduoli_dead.gr2</File>
+	<File md5="D8BE4EAE1723C3B10DD7452E7C16DBF3" import="1">Art/FAIRY_SAINT/233_keduoli_relive.gr2</File>
+	<File md5="7CBF81DEECB0D9F8B2120592B4C1CB91" import="1">Art/FAIRY_SAINT/233_keduoli_single_attack_attcom_a.gr2</File>
+	<File md5="4257EED7407248B3D7609BBD9F490CD2" import="1">Art/FAIRY_SAINT/233_keduoli_single_attack_attcom_b.gr2</File>
+	<File md5="E0BDCF65878BB1DE017617DF95A520A8" import="1">Art/FAIRY_SAINT/233_keduoli_single_chuansong.gr2</File>
+	<File md5="EEBA0126EC84AD1AE75370645F2A9FBD" import="1">Art/FAIRY_SAINT/233_keduoli_single_run.gr2</File>
+	<File md5="7694558995EBFB34310454E5864357C9" import="1">Art/FAIRY_SAINT/233_keduoli_single_skill_01.gr2</File>
+	<File md5="80BD4769891E6E8564C669C9D6E947D0" import="1">Art/FAIRY_SAINT/233_keduoli_single_skill_03.gr2</File>
+	<File md5="DCC738C10DF05DBDFDEE05565B503E77" import="1">Art/FAIRY_SAINT/233_keduoli_single_skill_04.gr2</File>
+	<File md5="B83D3AFBF76D8937299D6FEE433C0240" import="1">Art/FAIRY_SAINT/233_keduoli_single_touzhi.gr2</File>
+	<File md5="E374BA51FBD14AD83954218EA5C9D790" import="1">Art/FAIRY_SAINT/233_keduoli_single_touzhi_1.gr2</File>
+	<File md5="1D19A209233D1D6BE64817FC5864BF7D" import="1">Art/FAIRY_SAINT/233_keduoli_single_touzhi_2.gr2</File>
+    <File md5="8ca1deb157fbea718bcb6ba4565f1418" import="1">TEXT/SChinese.xml</File>
+    <File md5="2713B0207D8FEE453D2F1999FBBF5831" import="0">XML/UU.xml</File>
+	<File md5="5E14819630998D0BE0515902E0AA14D2" import="0">XML/UU2.xml</File>
+    <File md5="451b5c2b24915fab29f7e9a77746bacd" import="0">XML/UI.xml</File>
+    <File md5="39d4bd37a83202494af964c23b3d7ca7" import="0">XML/UB.xml</File>
+	<File md5="EF6A20327384B9602B68154ACA809C3C" import="0">XML/Trait_Promotion.xml</File>
+    <File md5="9636D5A22461F15E7C4F1DFC5A8D73FC" import="0">XML/Civilization - Easy.xml</File>
+    <File md5="21313CE6AC134E849BC79BC67C3CF873" import="0">XML/DiplomacyResponses - Easy.xml</File>
+    <File md5="D1A607CDD3EAB53E27368EA2A8169415" import="1">XML/IconTextureAtlases_FFF.xml</File>
+    <File md5="83EF12A29DD1ABFCBDE94134998A6366" import="0">XML/Tiara - Easy.xml</File>
+    <File md5="5ae55b8429b9583e2677f1a0e6674675" import="0">XML/Trait Helper.xml</File>
+    <File md5="c0f524da4367559aaf878b91d050d3b0" import="0">XML/Polices Helper - Easy.xml</File>
+    <File md5="6095BDDC65CA3ECCDDE406AE45759E4A" import="1">XML/LEADER_TIARA_Scene.xml</File>
+    <File md5="52168218F579E8E75CE792C230A35CE1" import="0">XML/FFF_Music - Easy.xml</File>
+    <File md5="6AFF856013FB1A55FB828A571FCCDA42" import="0">XML/Tiara Trait - Easy.xml</File>
+    <File md5="8F98DCF5E048DA124ECB2224436F2570" import="0">XML/FFF_Palace - Easy.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/LeaderSceneChanger.sql</UpdateDatabase>
+      <UpdateDatabase>TEXT/SChinese.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UU.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/UU2.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UI.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UB.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Trait_Promotion.xml</UpdateDatabase>
+      <UpdateDatabase>XML/FFF_Music - Easy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization - Easy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Tiara - Easy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait Helper.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Polices Helper - Easy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Tiara Trait - Easy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/LEADER_TIARA_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DiplomacyResponses - Easy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IconTextureAtlases_FFF.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GODDESS_Religion.xml</UpdateDatabase>
+      <UpdateDatabase>XML/FFF_Palace - Easy.xml</UpdateDatabase>
+	  <UpdateDatabase>Core/Tiara_TNLSupport.sql</UpdateDatabase>
+	  <UpdateDatabase>Core/233_Sounds.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Core/FFFLua.lua">
+      <Name>TiaraTraitLoader</Name>
+      <Description>Loader file to activate Tiara's Trait Lua if she's in the game</Description>
+    </EntryPoint>
+    <EntryPoint type="DiplomacyUIAddin" file="Core/LeaderHeadImageOverride.xml">
+      <Name>LeaderHeadImageOverride</Name>
+      <Description>LeaderHeadImageOverride</Description>
+    </EntryPoint>
+	<EntryPoint type="InGameUIAddin" file="Core/Tiara_CombatRule.lua">
+		<Name>CombatRule</Name>
+		<Description>TiaraCombatRule</Description>
+	</EntryPoint>
+  </EntryPoints>
+</Mod>

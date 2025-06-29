@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--建筑-->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PALACE_TIARA</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<GoldMaintenance>0</GoldMaintenance>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_PALACE_TIARA</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALACE_TIARA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PALACE_TIARA_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_PALACE_TIARA_HELP</Help>
+			<Capital>true</Capital>
+			<NeverCapture>1</NeverCapture>
+			<NukeImmune>1</NukeImmune>
+			<HurryCostModifier>0</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GlobalCityWorkingChange>2</GlobalCityWorkingChange>
+			<Defense>500</Defense>
+			<FreeBuildingThisCity>BUILDINGCLASS_TIARA_MODIFIER</FreeBuildingThisCity>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>3</GreatWorkCount>
+			<ThemingBonusHelp>TXT_KEY_THEMING_BONUS_PALACE_TIARA_HELP</ThemingBonusHelp>
+			<!--<DisplayPosition>32</DisplayPosition>-->
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
+			<ArtInfoCulturalVariation>1</ArtInfoCulturalVariation>
+		</Row>
+	</Buildings>
+
+	<Building_GlobalYieldModifiers>
+	<!--帝国产出修正-->
+	</Building_GlobalYieldModifiers>
+
+	<Building_YieldModifiers>
+	<!--产出修正-->
+	</Building_YieldModifiers>
+
+	<Building_YieldChanges>
+	<!--产出增加-->
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<!--Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>0</Yield>
+		</Row-->
+	</Building_YieldChanges>
+	
+	<Building_YieldChangesPerPop>
+	<!--本城人口产出修正-->
+	</Building_YieldChangesPerPop>
+
+	<Building_Flavors>
+	<!--建筑偏好-->
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<FlavorType>FLAVOR_FAITH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_ResourceQuantity>
+	<!--提供资源-->
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>30</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>30</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<ResourceType>RESOURCE_CONSUMER</ResourceType>
+			<Quantity>30</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+
+	<Building_ThemingBonuses>
+	<!--主题奖励-->
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_PALACE_TIARA</Description>
+			<Bonus>3</Bonus>
+			<SameEra>0</SameEra>
+			<MustBeArt>true</MustBeArt>
+			<RequiresOwner>true</RequiresOwner>
+			<AIPriority>3</AIPriority>
+		</Row>
+	</Building_ThemingBonuses>
+
+	<Building_BuildingClassYieldChanges>
+	<!--建筑物产出修正-->
+		<!--<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>-->
+	</Building_BuildingClassYieldChanges>
+
+	<Building_BuildingClassHappiness>
+	<!--建筑物幸福修正-->
+		<!--<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BUILDING_MONUMENT</BuildingClassType>
+			<Happiness>1</Happiness>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>-->
+	</Building_BuildingClassHappiness>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_TIARA">
+			<Text>Godly Revival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PALACE_TIARA_TEXT">
+			<Text>Another dimension where Goddess and Vile God fell in sleep and you can feel the mana spilled out by the Gods when you focus on it. Fencers can get there only with Godess's power or Vile God's power. Fencers may use the furies they collected to release those lost furies that sealing the Gods.[NEWLINE]But pulling out all of the lost furies can't wake the Gods unless you get the Faith's Drop and reach their own holy site.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_TIARA_STRATEGY">
+			<Text>Your palace is the seat of your government. Early in the game it provides a significant portion of your capital city's culture, gold, science, and production. It also forms the heart of your empire's trading system. Although the palace is automatically rebuilt in another city if your capital is captured, it can still be a terrible blow to your civilization (and it makes it impossible for you to win a Domination victory until you get it back). Protect your palace!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_TIARA_HELP">
+			<Text>Indicates this City is the [ICON_CAPITAL] Capital of the empire. Contains 1 slot for a Great Work of Art.[NEWLINE][NEWLINE][ICON_CONNECTED] Connecting other Cities to the [ICON_CAPITAL] Capital by Road will produce additional [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production, +3 [ICON_RESEARCH] Science, +3 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_PALACE_TIARA">
+			<Text>Godly Revival's Art Exhibition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_PALACE_TIARA_HELP">
+			<Text>Fill 3 Art Greatwork with your Civ to get bonus.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

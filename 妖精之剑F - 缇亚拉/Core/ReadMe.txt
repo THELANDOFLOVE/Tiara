@@ -1,0 +1,8 @@
+CultureOverview 文化旅游界面变更
+FFFLua和FFFTrait 政策特质加载
+LeaderHeadImageOverride 外交界面变更核心代码
+LeadderSceneChanger 外交界面变更核心前提
+
+将需要关闭的功能全体相关文件移动至Disable内即可
+
+注意 当外交界面功能被移除后领袖将无法加载导致文明不可用
