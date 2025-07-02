@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<!--»ù´¡ÁìÐä-->
+	<!--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
 	<Leaders>
 		<Row>
 			<Type>LEADER_TIARA</Type>
@@ -25,8 +25,8 @@
 			<Meanness>0</Meanness>
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>FAIRY_FENCER_LOGO</IconAtlas>
-			<!--LeaderSceneºËÐÄ-->
-		<LeaderSceneOverride>TIARASceneOverride.dds</LeaderSceneOverride>
+			<!--LeaderSceneï¿½ï¿½ï¿½ï¿½-->
+		<LeaderSceneOverride>TIARA_SCENE.dds</LeaderSceneOverride>
 		<LeaderSceneOverrideFriendly>TIARASceneOverrideFriendly.dds</LeaderSceneOverrideFriendly>
 		<LeaderSceneOverrideGuarded>TIARASceneOverrideGuarded.dds</LeaderSceneOverrideGuarded>
 		<LeaderSceneOverrideAfraid>TIARASceneOverrideAfraid.dds</LeaderSceneOverrideAfraid>
@@ -37,7 +37,7 @@
 		</Row>
 	</Leaders>
 
-	<!--Ö÷ÎÄÃ÷Ì¬¶È-->
+	<!--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½-->
 	<Leader_MajorCivApproachBiases>
 		<Row>
 			<LeaderType>LEADER_TIARA</LeaderType>
@@ -76,7 +76,7 @@
 		</Row>
 	</Leader_MajorCivApproachBiases>
 
-	<!--³Ç°îÌ¬¶È-->
+	<!--ï¿½Ç°ï¿½Ì¬ï¿½ï¿½-->
 	<Leader_MinorCivApproachBiases>
 		<Row>
 			<LeaderType>LEADER_TIARA</LeaderType>
@@ -105,7 +105,7 @@
 		</Row>
 	</Leader_MinorCivApproachBiases>
 
-	<!--¸÷ÖÖÇãÏò-->
+	<!--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
 	<Leader_Flavors>
 		<Row>
 			<LeaderType>LEADER_TIARA</LeaderType>
@@ -299,7 +299,7 @@
 		</Row>
 	</Leader_Flavors>
 
-	<!--ÌØÖÊÀàÐÍ-->
+	<!--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_TIARA</LeaderType>

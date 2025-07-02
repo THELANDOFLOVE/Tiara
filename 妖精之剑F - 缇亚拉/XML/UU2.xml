@@ -48,7 +48,7 @@
 			<!--升级花费系数-->
 			<ObsoleteTech>TECH_MOBILE_TACTICS</ObsoleteTech>
 			<!--过时科技机动战术-->
-			<GoodyHutUpgradeUnitClass>null</GoodyHutUpgradeUnitClass>
+			<!-- <GoodyHutUpgradeUnitClass>null</GoodyHutUpgradeUnitClass> -->
 			<!--晋升单位无-->
 			<XPValueAttack>5</XPValueAttack>
 			<!--攻击获得经验-->
@@ -177,7 +177,7 @@
 	<!--单位晋升路线-->
 		<Row>
 			<UnitType>UNIT_MAGIC_AIRBOAT</UnitType>
-			<UnitClassType>UNIT_ATTACK_HELICOPTER</UnitClassType>
+			<UnitClassType>UNITCLASS_ATTACK_HELICOPTER</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
 	

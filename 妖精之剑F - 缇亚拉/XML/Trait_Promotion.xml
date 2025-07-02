@@ -454,13 +454,13 @@
 			<UnitType>UNIT_FAIRY_SAINT</UnitType>
 		</Row>
 		
-		<Row>
+		<!-- <Row>
 			<PromotionType>PROMOTION_OLGA_STREET</PromotionType>
 			<UnitType>UNIT_FAIRY_SAINT</UnitType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_GRAND_CANAL</PromotionType>
 			<UnitType>UNIT_FAIRY_SAINT</UnitType>
-		</Row>
+		</Row> -->
 	</UnitPromotions_CivilianUnitType>
 </GameData>
