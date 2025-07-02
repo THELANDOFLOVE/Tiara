@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="e8572933-81b3-4cc1-947f-a67566795c0d" version="4">
+<Mod id="e8572933-81b3-4cc1-947f-a67566795c0d" version="5">
   <Properties>
     <Name>妖精之剑F - 缇亚拉</Name>
     <Stability>Beta</Stability>
@@ -35,7 +35,7 @@
     <File md5="581B6BEDE032BB01A7368F7427E386E4" import="1">Core/FFFTrait.lua</File>
 	<File md5="2D444A25D1E395DF9286300E84A86ECB" import="0">Core/Tiara_CombatRule.lua</File>
 	<File md5="FDF00E79BC64D591AF439944C1A27814" import="0">Core/Tiara_TNLSupport.sql</File>
-    <File md5="d9f9b4047cff989ff18e8d23081882dd" import="1">Art/TiaraSceneOverride.dds</File>
+    <File md5="d9f9b4047cff989ff18e8d23081882dd" import="1">Art/TIARA_SCENE.dds</File>
     <File md5="130970eeb95a0023c3411fca867b8089" import="1">Art/TiaraSceneOverrideGuarded.dds</File>
     <File md5="b21c3a0dc769720a1252d9a08e64c751" import="1">Art/TiaraSceneOverrideAfraid.dds</File>
     <File md5="9ad8a89e31678a6c14c154443e623748" import="1">Art/TiaraSceneOverrideDefeat.dds</File>

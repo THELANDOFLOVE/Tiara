@@ -99,7 +99,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PALACE_TIARA</BuildingType>
-			<FlavorType>FLAVOR_FAITH</FlavorType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
 		<Row>
